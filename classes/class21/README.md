@@ -26,7 +26,7 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
 
 ## There are Ten Remaining Deliverables This Semester
 
-### There are four classes (including today) and four deliverables before Thanksgiving Break (prior to 2020-11-20)
+### There are 4 classes (including today) and 4 deliverables before Thanksgiving Break (prior to 2020-11-20)
 
 1. The [Class Survey](https://thomaselove.github.io/431-2020-projectB/survey1.html) (used for Project B Study 1 data) is due tomorrow (Wednesday 2020-11-11) at 11 PM. 
     - This replaces the Minute Paper after Class 21 that was originally planned.
@@ -42,7 +42,7 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
     - complete some very basic summaries in R (really, just counts of how many "complete" cases you have)
     - fill out the form at http://bit.ly/431-projectB-data-plan ([the questions on the form](https://thomaselove.github.io/431-2020-projectB/your5.html) are available for you to review so you can prepare.)
 
-### After Thanksgiving Break, we have two classes and six deliverables.
+### After Thanksgiving Break, we have 2 classes and 6 deliverables.
 
 5. Watch the five extra videos associated with Class 20, that you'll find in the **Class 20 Extra Videos** folder in our Shared Google Drive, before we return from Thanksgiving Break on 2020-11-30. Somehow, I'll know if you have done this. Hint, hint.
 6. [Lab 08](https://github.com/THOMASELOVE/431-2020/blob/master/labs/README.md) is due at 9 PM on Monday 2020-11-30. 

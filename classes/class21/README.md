@@ -17,7 +17,7 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
     - Coming are chapters on comparing proportions (from Classes 19-20, especially), power and sample size considerations (today's materials), and the regression material we will discuss in Classes 22-24. I certainly hope to get all of that done before Thanksgiving Break.
 3. [Instructions for Project B](https://thomaselove.github.io/431-2020-projectB/) are now available.
     - The newest item(s) posted there are the materials for the [Study 1 Demonstration Project](https://thomaselove.github.io/431-2020-projectB/survey6.html).
-    - I also made a lot of small changes Monday to the site to help clarify issues regarding the oral presentation element of the project.
+    - I also made several small changes Monday to clarify issues regarding Study 1, and the oral presentation element of the project.
     - If you're looking for a partner for Project B, please visit the **Project B Looking for a Partner** document in our Shared Google Drive, which you should also be able to access at https://bit.ly/431-projectB-find-a-partner. 
         - There, you can list your name and email and find the names and emails of people who are looking for partners. If you've asked me for help in this regard, you'll also find your information on the list.
         - I ask only that you remove your name and email once you have found a partner. 

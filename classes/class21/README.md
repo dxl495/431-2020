@@ -24,19 +24,24 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
 
 ## What Are the Remaining Deliverables This Semester?
 
-### Due Before Thanksgiving Break (prior to 2020-11-20)
+### There are four classes (including today) and four deliverables before Thanksgiving Break (prior to 2020-11-20)
 
 1. The [Class Survey](https://thomaselove.github.io/431-2020-projectB/survey1.html) (used for Project B Study 1 data) is due tomorrow (Wednesday 2020-11-11) at 11 PM. 
     - This replaces the Minute Paper after Class 21 that was originally planned.
-    - Once Dr. Love has processed these data and provided them to you, you will be completely able to do all of Project B Study 1.
+    - Once Dr. Love has processed these data and provided them to you, you will be able to do **all** of Project B Study 1.
 2. [Lab 07](https://github.com/THOMASELOVE/431-2020/blob/master/labs/README.md) is due at 9 PM on Monday 2020-11-16. 
     - Remember that your lowest two lab grades this semester are ignored, so you can skip two if you did well on the others, although Labs 7 and 8 are an excellent way to build up skills for Quiz 2 and Project B.
 3. There will be a Minute Paper after Class 23 due 2020-11-18.
-4. The Project B [Study 2 Data Plan](https://thomaselove.github.io/431-2020-projectB/your5.html) is due at noon on Thursday 2020-11-19.
+4. The Project B [Study 2 Data Plan](https://thomaselove.github.io/431-2020-projectB/your5.html) is due at noon on Thursday 2020-11-19. Assuming you either have found a partner or don't need one, all you need to do there is: 
+    - [select your Study 2 data set](https://thomaselove.github.io/431-2020-projectB/your1.html) (either [NHANES](https://thomaselove.github.io/431-2020-projectB/your2.html) or something else that meets [my specifications](https://thomaselove.github.io/431-2020-projectB/your3.html)), 
+    - get your Study 2 data into R (I provide [detailed NHANES instructions](https://thomaselove.github.io/431-2020-projectB/your2.html)), 
+    - [select your outcome, key predictor, and 3-8 additional predictors](https://thomaselove.github.io/431-2020-projectB/your4.html) you're interested in and establish a research question linking the outcome to the key predictor and (perhaps) the additional predictors,
+    - complete some very basic summaries in R (really, just counts of how many "complete" cases you have)
+    - fill out the form at http://bit.ly/431-projectB-data-plan ([the questions on the form](https://thomaselove.github.io/431-2020-projectB/your5.html) are available for you to review so you can prepare.)
 
 ### After Thanksgiving Break, we have two classes and five deliverables.
 
-5. Be sure to watch the five extra videos associated with Class 20, that you'll find in the **Class 20 Extra Videos** folder in our Shared Google Drive, before we return from Thanksgiving Break on 2020-11-30.
+5. Watch the five extra videos associated with Class 20, that you'll find in the **Class 20 Extra Videos** folder in our Shared Google Drive, before we return from Thanksgiving Break on 2020-11-30. Somehow, I'll know if you have done this. Hint, hint.
 6. [Lab 08](https://github.com/THOMASELOVE/431-2020/blob/master/labs/README.md) is due at 9 PM on Monday 2020-11-30. 
     - Remember that your lowest two lab grades this semester are ignored, so you can skip two if you did well on the others, although Labs 7 and 8 are an excellent way to build up skills for Quiz 2 and Project B.
 7. There will be a Minute Paper after Class 25 due 2020-12-02.
@@ -47,3 +52,7 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
     - Some of you (about 12 project groups in all) will instead meet with Dr. Love via Zoom to discuss Project B either on 2020-12-09, 12-10 or 12-11.
     - You'll know which oral presentation (recording or meeting) you'll need to do by 2020-12-01, when you get the questions.
 9. Quiz 2 will be made available to you by 5 PM on Friday 2020-12-04, the day after our last class. It was originally supposed to be due on 2020-12-08, but I've now moved that deadline back to Friday 2020-12-11 at noon.
+
+# One Last Thing
+
+To come.

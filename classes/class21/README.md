@@ -28,6 +28,7 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
 
 1. The [Class Survey](https://thomaselove.github.io/431-2020-projectB/survey1.html) (used for Project B Study 1 data) is due tomorrow (Wednesday 2020-11-11) at 11 PM. 
     - This replaces the Minute Paper after Class 21 that was originally planned.
+    - As of 2020-11-10 at 11 AM, 24 students had not yet completed the form, and a few folks had completed the form with some missing responses. I've let those folks know via email. Please get this done by Wednesday night.
     - Once Dr. Love has processed these data and provided them to you, you will be able to do **all** of Project B Study 1.
 2. [Lab 07](https://github.com/THOMASELOVE/431-2020/blob/master/labs/README.md) is due at 9 PM on Monday 2020-11-16. 
     - Remember that your lowest two lab grades this semester are ignored, so you can skip two if you did well on the others, although Labs 7 and 8 are an excellent way to build up skills for Quiz 2 and Project B.

@@ -14,6 +14,7 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
 
 1. [Instructions for Project B](https://thomaselove.github.io/431-2020-projectB/) are now available.
     - The newest item(s) posted there are the materials for the [Study 1 Demonstration Project](https://thomaselove.github.io/431-2020-projectB/survey6.html).
+    - I also made a lot of small changes yesterday to the site to help clarify issues regarding the oral presentation element of the project.
     - If you're looking for a partner for Project B, please visit the **Project B Looking for a Partner** document in our Shared Google Drive, which you should also be able to access at https://bit.ly/431-projectB-find-a-partner. 
         - There, you can list your name and email and find the names and emails of people who are looking for partners. If you've asked me for help in this regard, you'll also find your information on the list.
         - I ask only that you remove your name and email once you have found a partner. 
@@ -21,10 +22,28 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
 3. The [ggplot2 book](https://ggplot2-book.org/) by Hadley Wickham, Danielle Navarro, and Thomas Lin Pedersen is ramping up its third edition. If you're looking for a cookbook, though, I'd recommend the [R Graphics Cookbook](https://r-graphics.org/) by Winston Chang.
 4. [Explore your activity on Google with R](https://towardsdatascience.com/explore-your-activity-on-google-with-r-how-to-analyze-and-visualize-your-search-history-1fb74e5fb2b6) is an interesting piece posted 2020-11-06 by Saul Beuntello at [Towards Data Science](https://towardsdatascience.com/). 
 
-## What Should I Be Doing?
+## What Are the Remaining Deliverables This Semester?
 
-1. The [Class Survey](https://thomaselove.github.io/431-2020-projectB/survey1.html) (used for Project B Study 1 data) is due Wednesday 2020-11-11 at 11 PM. This replaces the Minute Paper after Class 21 that was planned.
-2. [Lab 07](https://github.com/THOMASELOVE/431-2020/blob/master/labs/README.md) is due at 9 PM on Monday 2020-11-16.
-3. The Project B [Study 2 Data Plan](https://thomaselove.github.io/431-2020-projectB/your5.html) is due at noon on Thursday 2020-11-19.
-4. Be sure to watch the five extra videos associated with Class 20, that you'll find in the **Class 20 Extra Videos** folder in our Shared Google Drive, before we return from Thanksgiving Break on 2020-11-30.
-5. [Lab 08](https://github.com/THOMASELOVE/431-2020/blob/master/labs/README.md) is due at 9 PM on Monday 2020-11-30.
+### Due Before Thanksgiving Break (prior to 2020-11-20)
+
+1. The [Class Survey](https://thomaselove.github.io/431-2020-projectB/survey1.html) (used for Project B Study 1 data) is due tomorrow (Wednesday 2020-11-11) at 11 PM. 
+    - This replaces the Minute Paper after Class 21 that was originally planned.
+    - Once Dr. Love has processed these data and provided them to you, you will be completely able to do all of Project B Study 1.
+2. [Lab 07](https://github.com/THOMASELOVE/431-2020/blob/master/labs/README.md) is due at 9 PM on Monday 2020-11-16. 
+    - Remember that your lowest two lab grades this semester are ignored, so you can skip two if you did well on the others, although Labs 7 and 8 are an excellent way to build up skills for Quiz 2 and Project B.
+3. There will be a Minute Paper after Class 23 due 2020-11-18.
+4. The Project B [Study 2 Data Plan](https://thomaselove.github.io/431-2020-projectB/your5.html) is due at noon on Thursday 2020-11-19.
+
+### After Thanksgiving Break, we have two classes and five deliverables.
+
+5. Be sure to watch the five extra videos associated with Class 20, that you'll find in the **Class 20 Extra Videos** folder in our Shared Google Drive, before we return from Thanksgiving Break on 2020-11-30.
+6. [Lab 08](https://github.com/THOMASELOVE/431-2020/blob/master/labs/README.md) is due at 9 PM on Monday 2020-11-30. 
+    - Remember that your lowest two lab grades this semester are ignored, so you can skip two if you did well on the others, although Labs 7 and 8 are an excellent way to build up skills for Quiz 2 and Project B.
+7. There will be a Minute Paper after Class 25 due 2020-12-02.
+8. [Project B] is due 2020-12-10 at Noon.
+    - All of you will be submitting your (group's) Study 1 Report (Rmd and HTML) and Study 2 Report (Rmd and HTML).
+    - All of you will submit a self-evaluation Google Form that Dr. Love will make available on 2020-12-01.
+    - Most of you will submit a video recording of yourself talking about your project in response to questions Dr. Love will provide on 2020-12-01. 
+    - Some of you (about 12 project groups in all) will instead meet with Dr. Love via Zoom to discuss Project B either on 2020-12-09, 12-10 or 12-11.
+    - You'll know which oral presentation (recording or meeting) you'll need to do by 2020-12-01, when you get the questions.
+9. Quiz 2 will be made available to you by 5 PM on Friday 2020-12-04, the day after our last class. It was originally supposed to be due on 2020-12-08, but I've now moved that deadline back to Friday 2020-12-11 at noon.

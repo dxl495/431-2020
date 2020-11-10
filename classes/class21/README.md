@@ -4,7 +4,7 @@
 :-----------: | :--------------: | :----------: | :---------: | :-------------: | :-----------: | :------------:
 for everything | for deadlines | expectations | from Dr. Love | ways to get help | zoom information | for downloads
 
-**Quote to come.**
+![](https://github.com/THOMASELOVE/431-2020/blob/master/classes/class21/images/polls.png)
 
 ## Today's Slides
 
@@ -22,6 +22,7 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
 3. On 2020-12-04, the San Francisco chapter of the American Statistical Association is hosting a pair of keynote speakers and a panel discussion on [A Positive Outlook During the Covid Era: how statistics could contribute to a better 2021](http://www.sfasa.org/Dec42020mtg.html). Registration is [free and required](https://www.eventbrite.com/e/2020-sfasa-holiday-celebration-tickets-127577564931), if you are interested.
 4. The [ggplot2 book](https://ggplot2-book.org/) by Hadley Wickham, Danielle Navarro, and Thomas Lin Pedersen is ramping up its third edition. If you're looking for a cookbook, though, I'd recommend the [R Graphics Cookbook](https://r-graphics.org/) by Winston Chang.
 5. [Explore your activity on Google with R](https://towardsdatascience.com/explore-your-activity-on-google-with-r-how-to-analyze-and-visualize-your-search-history-1fb74e5fb2b6) is an interesting piece posted 2020-11-06 by Saul Beuntello at [Towards Data Science](https://towardsdatascience.com/). 
+6. You may be interested in learning about a [Github Workflow for Data Science Project Proposals](http://www.citizen-statistician.org/2020/11/github-workflow-for-data-science-project-proposals/) written by Mine Cetinkaya-Rundel, which is something I will be considering for my Spring courses.
 
 ## There are Ten Remaining Deliverables This Semester
 
@@ -60,4 +61,14 @@ All materials for this class must be in to Dr. Love by the deadlines above in or
 
 # One Last Thing
 
-To come.
+One good thing to think about doing **in between semesters** is building your own website. 
+
+- Before this term is over, we'll be providing you with several links and examples of how you can build a website for yourself using R Markdown. 
+- One example of this is the site of our TA, [Wyatt Bensken](https://wyattbensken.com/). 
+- Several other TAs and former 431 students have done this, as well (and Dr. Love will update his in January the same way.) 
+
+As you're thinking about this, you might be interested in this tip from [Cyrus Rashtchian](https://twitter.com/cyrusrashtchian/status/1322003361969758208?s=11):
+
+![](https://github.com/THOMASELOVE/431-2020/blob/master/classes/class21/images/protip.png)
+
+https://domains.google/ is the place suggested here, as a spot to think about buying a domain name for yourself.

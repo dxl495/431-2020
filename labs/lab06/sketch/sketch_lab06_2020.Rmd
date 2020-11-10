@@ -1,0 +1,523 @@
+---
+title: "Lab 06 Answer Sketch and Rubric"
+author: "431 Staff"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    number_sections: TRUE
+---
+
+## Set Up {-}
+
+```{r setup, message=FALSE}
+knitr::opts_chunk$set(comment=NA)
+
+library(broom)
+library(janitor)
+library(knitr)
+library(readxl)
+library(magrittr)
+library(patchwork)
+library(tidyverse)
+
+options(dplyr.summarise.inform = FALSE)
+theme_set(theme_bw())
+```
+
+## Data Load {-}
+
+Note that we've stored the `pad.xlsx` and `circ.csv` in the data subfolder within our R Project for Lab 06.
+
+```{r, message = FALSE}
+pad_raw <- read_excel("data/pad.xlsx")
+circ_raw <- read_csv("data/circ.csv")
+```
+
+## Load the `Love-boost.R` script {-}
+
+```{r}
+Love_boost_URL <- 
+  "https://raw.githubusercontent.com/THOMASELOVE/431-data/master/Love-boost.R"
+
+source(Love_boost_URL) 
+```
+
+# Question 1 (25 points)
+
+In a study of risk factors for peripheral arterial disease among persons 55-74 years of age, suppose you want to compare mean LDL cholesterol levels (measured in mmol/liter) across four different populations of subjects. 
+
+- Group 1 includes patients with intermittent claudication or interruptions in movement.
+- Group 2 includes patients with major asymptomatic disease.
+- Group 3 includes patients with minor asymptomatic disease.
+- Group 4 includes those patients with no evidence of disease at all.
+
+Assume that the `pad.xlsx` data (containing three columns of data: `subjectID`, `LDL` and `Group`) [provided for you](https://github.com/THOMASELOVE/431-2020/tree/master/labs/lab06/data) describe random samples selected from each of these populations.
+
+Your job is to complete an appropriate analysis of these data which provide meaningful information about what can be learned from them. Present your code, and explain what you develop in complete sentences, being sure to ingest the data appropriately, describe the characteristics of the sample used to generate your conclusions, specify the linear model you develop, assess assumptions carefully and produce an overall comparison across the four Groups, as well as meaningful information about pairwise comparisons across the Groups. Use a 99% confidence level for all elements of Question 1.
+
+**Note** Should you wish to convert these LDL cholesterol levels from mmol/liter to mg/dl, you would need to multiply the value in mmol/liter by 38.67.
+
+**Note** The `TukeyHSD` function takes a `conf.level` argument to specify something other than the default 0.95.
+
+## Hint for Question 1 {-}
+
+Short Version: I encourage you to make the simplifying assumption of "I'm going to proceed as if I can assume equal population variances here" in doing the Lab.
+
+Longer Version:
+
+Looking at the data in Question 1, I would probably be more comfortable using `oneway.test` without assuming equal variances for the main comparison across all four groups, rather than an analysis of variance. 
+
+- but if you use ANOVA, that's fine. Just explain why you're doing that.
+
+If I used `oneway.test` without assuming equal variances, then that would usually lead me to do one of two things in judging pairwise comparisons:
+
+- running a Bonferroni or Holm set of *p* values with `pairwise.t.test` while setting the parameter `pool.sd = FALSE`, so that I might have something like `pairwise.t.test(x = LDL, g = Group, pool.sd = FALSE, p.adjust = "bonferroni")` in my response, rather than leaving out the `pool.sd = FALSE` and just using the default assumption.
+- running a Tukey-Kramer procedure instead of a Tukey HSD, since the Tukey-Kramer is more appropriate with a substantially unbalanced design. This requires learning something about a new package to get the Tukey-Kramer to run, which is not something I was looking for you to do,
+
+and so while I will describe each of those ideas in the answer sketch, I encourage you to make the simplifying assumption of "I'm going to proceed as if I can assume equal population variances here" in doing the Lab.
+
+## Rubric for Question 1
+
+If you provided an ANOVA analysis, and described it accurately, then used Tukey HSD to build pairwise comparisons and interpreted them properly, that's 100% fine for purposes of this Lab.
+
+If you did something else (and we walk through those possibilities in the sketch below) then you needed to justify your alternative choices with results from the data.
+
+## Answer to Question 1
+
+Let's begin with a numerical summary of the `LDL` values stratified by `Group`.
+
+```{r, message = FALSE}
+mosaic::favstats(LDL ~ Group, data = pad_raw)
+```
+
+### Cleaning the Data
+
+OK. To clean up the data, we'll assume MCAR for the missing values, and also convert the Group information to a **factor** in R, then work with what remains. 
+
+- I'm going to use the codes (Groups 1, 2, 3, and 4) as the labels for the Group factor here.
+- I'm also going to create a version of LDL cholesterol using mg/dl in case that turns out to be useful.
+
+```{r}
+q1 <- pad_raw %>% 
+    filter(complete.cases(LDL, Group)) %>%
+    mutate(Group = factor(Group),
+           LDL_mgdl = 38.67*LDL)
+```
+
+### Plotting the Data
+
+We'll start with a plot.
+
+```{r}
+ggplot(q1, aes(x = Group, y = LDL)) +
+    geom_violin() +
+    geom_boxplot(aes(fill = Group), width = 0.3, notch = TRUE) +
+    guides(fill = FALSE) +
+    labs(y = "LDL (mmol/l)")
+```
+
+or, if you prefer, we can look at the LDL in units of mg/dl...
+
+```{r}
+ggplot(q1, aes(x = Group, y = LDL_mgdl)) +
+    geom_violin() +
+    geom_boxplot(aes(fill = Group), width = 0.3, notch = TRUE) +
+    guides(fill = FALSE) +
+    labs(y = "LDL (mg/dl)")
+```
+
+So multiplying by a positive constant value doesn't change what we're looking at. I don't see any obvious signs of non-Normality here.
+
+### Can we assume equal variances in the population?
+
+Clearly the sample sizes are unbalanced and the sample variances are not identical across the four groups. As previously seen in the `favstats` output. This could also be verified using `summarize` for the LDL in mg/dl. Of course, `var` here just gives us the sample variance, which is just the square of the sample standard deviation.
+
+```{r}
+q1 %>% group_by(Group) %>%
+    summarize(n = n(), mean(LDL_mgdl), sd(LDL_mgdl), var(LDL_mgdl))
+```
+
+So we could assume here that the differences in sample variance weren't worth worrying about too much, even though the sample sizes are quite different, or we could assume that the differences in sample variance are worth worrying about.
+
+Let's look at ANOVA results with and without the assumption of equal variances. I'll also demonstrate that the ANOVA F test is unaffected by whether or not we change the units of LDL.
+
+### One-Way ANOVA results, assuming equal population variances
+
+Here's the one-way ANOVA for LDL (mmol/l) by Group.
+
+```{r}
+anova(lm(LDL ~ Group, data = q1))
+```
+
+If we instead use LDL in (mg/dl) and compare the Groups, we get the same F statistic and *p* value.
+
+```{r}
+anova(lm(LDL_mgdl ~ Group, data = q1))
+```
+
+### One-Way ANOVA results, NOT assuming equal population variances
+
+If, instead, we use `oneway.test` without assuming equal variances (the Welch ANOVA), we get a different result (assuming a 99% confidence level) from the ANOVA assuming equal variances.
+
+```{r}
+oneway.test(LDL ~ Group, data = q1)
+```
+
+Again for the `oneway.test` approach, our conclusion is not affected by whether or not we convert the LDL values from mmol/l to mg/dl.
+
+```{r}
+oneway.test(LDL_mgdl ~ Group, data = q1)
+```
+
+The ANOVA *p* value is much smaller than the one-way test *p* value, and we want to use a 99% confidence level. 
+
+### Are there tests of "equality of variances"
+
+Yes. There's the Bartlett's test, and the Fligner-Killeen test, to name but two. The Bartlett test is a little more accepted when the data are Normally distributed, while Fligner-Killeen is perhaps a better choice if we're not willing to assume a Normal distribution.
+
+```{r}
+bartlett.test(LDL ~ Group, data = q1)
+```
+
+```{r}
+fligner.test(LDL ~ Group, data = q1)
+```
+
+In either case, these small *p* values indicate potential concerns with the assumption of equal variances, although the tests aren't great, especially in a situation like this where we have a pretty large sample size in one of the groups, while the others are relatively small. 
+
+Still, the main conclusion here is that it's hard to assume equal population variances.
+
+### Which Test to Use?
+
+So, if we assume equal variances, the ANOVA suggests that we have a statistically detectable difference between Groups in terms of LDL (*p* = 0.001497 which is less than $\alpha = 0.01$.)
+
+And if we do not assume equal variances, then our Welch ANOVA suggests that we cannot detect the observed difference in means between Groups (since *p* = 0.01643 is greater than $\alpha = 0.01$.)
+
+You can make an argument that we might accept in either direction (assume equal variance or not) although the more compelling case is probably for the `oneway.test` without the assumption.
+
+### Looking at the Residuals
+
+If we're not happy with the ANOVA and instead want to use the Welch test, that doesn't make a series of predictions for us across the whole range of the data, so residuals specific to that procedure aren't available. So if you're using a Welch test, I'm not sure that looking at residuals tells you anything more than what you would see by looking at the data originally. Certainly, there's no indication of a problem with the Normality assumption in the data.
+
+However, if we're working with the ANOVA assuming equal variances, our linear model can be used to generate residuals and fitted values just as in any other linear model. 
+
+```{r}
+model1 <- lm(LDL ~ Group, data = q1)
+aug1 <- augment(model1, q1)
+```
+
+```{r}
+p1 <- ggplot(aug1, aes(x = .fitted, y = .resid)) +
+    geom_point() +
+    labs(x = "Fitted Values (mmol/l)", y = "Residuals (mmol/l)",
+         title = "Residuals vs. Fitted")
+p2 <- ggplot(aug1, aes(sample = .resid)) +
+    geom_qq() + geom_qq_line(col = "red") +
+    labs(y = "Residuals (mmol/l)",
+         title = "Normal Q-Q of Residuals")
+
+p1 + p2 + plot_annotation(title = "ANOVA residuals for Question 1",
+                          subtitle = "assuming equal population variances")
+```
+
+I don't see any signs of an issue with Normality or non-constant variance here, but it's hard to be sure, since we don't get a lot of information from the plot on the left due to the huge number of subjects in Group 4. 
+
+### Making Pairwise Comparisons
+
+Now, as for pairwise comparisons, you have, as I see it, at least three different types of approaches, any of which would have been OK with us if you justified your choice.
+
+1. Use a Tukey HSD approach to look at comparisons across all pairs of groups, which is most appropriate for a balanced design (which this isn't) but is still useful in practical work even when the design is unbalanced (it's just too conservative usually.)
+
+2. Use a Bonferroni approach, or perhaps the Holm approach (the Holm is actually the default choice in R for `pairwise.t.test`) either with the assumption of equal variances, or without that assumption.
+
+3. Use a Tukey-Kramer approach, which is probably best for a seriously unbalanced design where you have pre-planned the comparisons across all pairs of groups.
+
+Again, any of these approaches would have been OK with us, so long as you generated them properly and explained the results and assumptions behind your choice.
+
+### Tukey HSD approach to multiple comparisons
+
+```{r}
+TukeyHSD(aov(LDL ~ Group, data = q1), conf.level = 0.99)
+```
+
+```{r}
+plot(TukeyHSD(aov(LDL ~ Group, data = q1), conf.level = 0.99))
+```
+
+The Tukey HSD approach finds a detectable difference only between Groups 4 and 1. It appears from this analysis that with 99% confidence, we can only detect a separation between Group 4 (those with no evidence of disease) and Group 1 (patients with intermittent claudication or interruptions in movement) and remember that the sample mean for Group 1 was larger than the sample mean for Group 4.
+
+### Bonferroni and Holm approaches (`pairwise.t.test`) to multiple comparisons
+
+Each of these approaches generates a series of 6 *p* values to compare the pairs of groups and we then use $\alpha = 0.01$ to identify pairs of groups that are detectably different.
+
+#### Standard Bonferroni approach. (Bonferroni p value adjustment, pooled sd estimate allowed)
+
+```{r}
+q1 %$% 
+    pairwise.t.test(x = LDL, g = Group, 
+                    p.adjust = "bonferroni")
+```
+
+Here, we'd conclude that only groups 1 and 4 are detectably different from each other across the six listed comparisons, with overall 99% confidence. Note that the sample mean LDL for group 1 (patients with intermittent claudication or interruptions in movement) is higher than the sample mean in group 4 (patients with no evidence of disease.)
+
+#### Bonferroni without assuming equal variances (Bonferroni p value adjustment, pooled sd estimate disallowed)
+
+```{r}
+q1 %$% 
+    pairwise.t.test(x = LDL, g = Group, 
+                    pool.sd = FALSE, p.adjust = "bonferroni")
+```
+
+If we're not willing to generate a pooled standard deviation estimate (that is, if we're not willing to assume equal population variances) then the Bonferroni comparison under that assumption finds no groups that are detectably different from each other across the six listed comparisons.
+
+#### Standard Holm approach. (Holm p value adjustment, pooled sd estimate allowed)
+
+```{r}
+q1 %$% pairwise.t.test(x = LDL, g = Group, p.adjust = "holm")
+```
+
+Again, we'd conclude that only groups 1 and 4 are detectably different from each other across the six listed comparisons, with overall 99% confidence.
+
+#### Holm without equal variances (Holm p value adjustment, pooled sd estimate disallowed)
+
+```{r}
+q1 %$% 
+    pairwise.t.test(x = LDL, g = Group, 
+                    pool.sd = FALSE, p.adjust = "holm")
+```
+
+And again, if we're not willing to generate a pooled standard deviation estimate (that is, if we're not willing to assume equal population variances) then the Holm comparison under that assumption also finds no groups that are detectably different from each other across the six listed comparisons.
+
+### The Tukey-Kramer approach
+
+This approach requires the installation of an additional R package, called `agricolae`, which you'd have to install first
+
+```{r}
+# library(agricolae)
+
+modelA <- lm(LDL ~ Group, data = q1)
+
+tktest <- agricolae::HSD.test(modelA, 
+                              trt = "Group", 
+                              unbalanced = TRUE, 
+                              alpha = 0.01)
+
+tktest
+
+plot(tktest)
+```
+
+Here, we'd conclude that we had a statistically detectable difference between Groups 1 and 3, and Groups 1 and 4, with an overall $\alpha$ of 0.01.
+
+
+# Question 2 (35 points)
+
+Suppose that you are interested in examining the effects of the transition from fetal to postnatal circulation among premature infants, and that you plan to use a 90% confidence level. For each of 18 healthy newborns, respiratory rate is measured once when the infant is less than 15 days old (Time 1), and once when he or she is more than 25 days old (Time 2). 
+
+The respiratory rate data are presented in the table below and also (in a different format) in the `circ.csv` data set [provided to you](https://github.com/THOMASELOVE/431-2020/tree/master/labs/lab06/data).
+
+Subject | Time 1 | Time 2
+------- | ------: | ------:
+1 | 54 | 50
+2 | 78 | 72
+3 | 66 | 76
+4 | 56 | 58
+5 | 62 | 46
+6 | 35 | 42
+7 | 38 | 40
+8 | 80 | 42
+9 | 48 | 36
+10 | 48 | 46
+11 | 68 | 45
+12 | 26 | 40
+13 | 48 | 42
+14 | 27 | 40
+15 | 43 | 46
+16 | 67 | 31
+17 | 52 | 44
+18 | 88 | 68
+
+Question 2 contains six sub-questions.
+
+## Rubric for Question 2
+
+In many of the subparts below, I am describing additional issues associated with each part. If you hit on the main points, you should receive the lion's share of the credit for that subpart.
+
+## Question 2a (5 points)
+
+> What is the outcome under study?
+
+The outcome is the premature newborn's respiratory rate. 
+
+## Question 2b (5 points)
+
+> What are the treatment/exposure groups?
+
+The outcome is measured at two time points for each newborn. The two exposures are the two time points: the measurement before the newborn is 15 days old and the measurement after the newborn is 25 days old.
+
+## Question 2c (5 points)
+
+> Were the data collected using matched / paired samples or independent samples? What do you need to do (if anything) to manage or rearrange the data for analyses?
+
+The samples are paired because each infant is measured at two time points (< 15 days and > 25 days.) The link between the two measurements is the infant, and it makes sense to calculate a difference in respiratory rate for each newborn.
+
+For paired / matched samples, we want the data to be organized in a wide (as opposed to long) format. As shown below, the data in the `circ.csv` file are in the long format, and need to be pivoted to a wider format to permit us to calculate paired differences.
+
+```{r}
+circ <- circ_raw %>%
+  mutate(Subject = as.character(Subject)) %>%
+  mutate(Time = fct_recode(factor(Time), 
+                        "early" = "1", "late" = "2"))
+
+circ
+```
+
+In order to calculate paired differences, we'll want this in a wider format.
+
+```{r}
+circ_wider <- circ %>% 
+  pivot_wider(names_from = Time, values_from = Resp_Rate)
+
+circ_wider
+```
+
+## Question 2d (5 points)
+
+> Are the data a random sample from the population(s) of interest? Is there at least a reasonable argument for generalizing from the sample to the population(s) or is there insufficient information provided on this point?
+
+There is insufficient evidence to conclude that the sample is random, or even representative of the target population. 
+
+Based on what little information we do have, the target population appears to be premature infants, but it's not clear how the 18 healthy newborns we've sampled here were selected (so we don't know they were a random sample of premature infants - in fact, we don't even know for sure that they were even born prematurely) and so we cannot say anything substantial about whether the sample is representative of the target population. 
+
+## Question 2e (5 points)
+
+> If we have paired samples, what does the distribution of paired differences tell us about which inferential procedure to use? If we instead have independent samples, what does the distribution of each individual sample tell us about which inferential procedure to use?
+
+We have paired samples, so we should assess the sample paired differences. We'll use late - early in our calculations, although this could certainly be done the other way.
+
+```{r}
+circ_wider <- circ_wider %>%
+    mutate(rrate_diff = late - early)
+
+mosaic::favstats(~ rrate_diff, data = circ_wider) %>% round(., 2)
+```
+
+```{r}
+p1 <- ggplot(circ_wider, aes(sample = rrate_diff)) +
+  geom_qq(col = "royalblue") + geom_qq_line(col = "red") +
+  labs(y = "Respiratory Rate Change (Late - Early)") + 
+  theme(aspect.ratio = 1)
+
+p2 <- ggplot(circ_wider, aes(x = "", y = rrate_diff)) +
+  geom_violin() + 
+  geom_boxplot(width = 0.7, fill = "royalblue", notch = TRUE) +
+  labs(x = "", y = "Respiratory Rate Change (Late - Early)") 
+
+p1 + p2 + 
+  plot_layout(widths = c(3, 1)) +
+  plot_annotation(title = "Respiratory Rate Changes are slightly left skewed",
+                  subtitle = "n = 18 newborns in the circ data / Question 2")
+```
+
+There are some signs in the Normal Q-Q and boxplot of a bit of left skew, or at least that a Normal model might not hold well for these differences. With just 18 observations, it is difficult to draw any meaningful conclusions about the distribution of the population of paired (late - early) differences. We'd probably want to use fewer assumptions about Normality here, and so a bootstrap looks like an appealing option (especially since we have been asked to focus on estimating the mean of these differences.)
+
+## Question 2f (10 points)
+
+> Finally, produce and interpret an appropriate confidence interval for a relevant population **mean** that addresses the key question from the study. Be sure to show and describe the R code that led to your selected confidence interval, and then interpret that interval in context using complete English sentences.
+
+Because the question asks for a population mean (as opposed to a median or pseudo-median), and because a Normal distribution doesn't provide a terrific fit to the 18 paired differences we see, I think the best option is to use a bootstrap to build our confidence interval estimate for the mean difference in respiratory rate. 
+
+```{r}
+set.seed(431)
+circ_wider %$% 
+  Hmisc::smean.cl.boot(rrate_diff, conf.int = 0.90)
+```
+
+The mean change in respiratory rate is estimated to be -6.67 with a 90% confidence interval of (-12.61, -1.05). 
+
+With 90% confidence, our sample allows us to detect lower respiratory rates in the newborns after 25 days on average than we observed in the same newborns before 15 days, because all of the values in our CI are below 0. 
+
+# Question 3 (15 points)
+ 
+Rosenberg et al. (1980) studied the relationship between coffee drinking and myocardial infarction in young women aged 30-49 years.  This retrospective study included 487 cases hospitalized for the occurrence of a myocardial infarction (MI).  Nine hundred eighty controls hospitalized for an acute condition (trauma, acute cholecystitis, acute respiratory diseases, and appendicitis) were selected. Data for consumption of five or more cups of coffee can be summarized as follows.
+
+Cups Per Day | MI | Controls
+---------- | --- | ---
+5 or more | 152 | 183
+less than 5 | 335 | 797
+
+Develop an appropriate comparison of the risk of an MI for heavy (5 or more cups per day) coffee drinkers as compared to those who drink less than 5 cups of coffee per day. Use a 10% significance level for this question. Be sure to provide your code, and interpret your results in the context of the study.
+
+**Note 1** The original paper (which you should not be reading to complete this Lab, but are welcome to look at if you are curious) is Rosenberg L et al. (1980) Coffee drinking and myocardial infarction in young women.  *Amer J Epidemiology*, 112, 39-53.
+
+**Note 2** The way I *should* have asked this question (to make it easier to avoid falling into a trap) follows...
+
+Consider the following cross-sectional study of the relationship between coffee drinking and myocardial infarction in young women aged 30-49 years. There were 487 women in the study who were  hospitalized for the occurrence of a myocardial infarction (MI).  These were compared to 980 young women hospitalized for an acute condition (trauma, acute cholecystitis, acute respiratory diseases, and appendicitis.) Data for consumption of five or more cups of coffee can be summarized as follows.
+
+Cups Per Day | MI Hosp. | Other Hosp.
+---------- | :---: | :---:
+5 or more | 152 | 183
+less than 5 | 335 | 797
+
+Develop an appropriate comparison of the probability or odds of an MI for heavy (5 or more cups per day) coffee drinkers as compared to those who drink less than 5 cups of coffee per day. Use a 10% significance level for this question. Be sure to provide your code, and interpret your results in  context.
+
+## Rubric for Question 3
+
+Any of the three main approaches to identifying a confidence interval and interpreting it were sufficient here. You didn't need to look at all three.
+
+## Answer to Question 3
+
+We are looking to compare the risk of an MI (the outcome) for heavy versus light coffee drinkers (the exposure). The inclusion of a 2x2 table in the question is a giveaway that we should probably use the `twobytwo` function from `Love-boost.R`. A 10% significance level indicates we should use a 90% confidence level. 
+
+The code is as follows, without a Bayesian augmentation:
+
+```{r}
+twobytwo(152, 183, 335, 797, # note order of counts
+        "Heavy coffee users", "Light coffee users", # names of the rows
+        "MI", "Controls", # names of the columns
+        conf.level = 0.90) # remember that default is 95% confidence
+```
+
+An appropriate comparison here could use:
+
+- the relative risk, which suggests that heavy coffee users have 53.3% higher (or 1.533 times the risk) of MI as compared to light coffee users, with 90% CI (1.354, 1.736). Since the 90% CI for the relative risk entirely exceeds 1, with 90% confidence, our sample identifies detectably higher rates of MI in the heavy coffee users than the light coffee users.
+
+- the odds ratio, which suggests that heavy coffee users have 97.6% higher odds (or 1.976 times the odds) of MI as compared to light coffee users, with 90% CI (1.602, 2.438). Since the 90% CI for the odds ratio entirely exceeds 1, with 90% confidence, our sample identifies detectably higher odds of MI in the heavy coffee users than the light coffee users.
+
+- the probability difference, which suggests that heavy coffee users have a higher risk (by 0.158 as a proportion, or by 15.8 percentage points) of MI as compared to light coffee users, with 90% CI (0.108, 0.208). Since the 90% CI for the risk difference entirely exceeds 0, with 90% confidence, our sample identifies detectably higher rates of MI in the heavy coffee users than the light coffee users.
+
+With a Bayesian augmentation, as shown below, we get about the same results, which is unsurprising given the reasonably large counts in each cell of the two-by-two table.
+
+```{r}
+twobytwo(152+2, 183+2, 335+2, 797+2, 
+        "Heavy coffee users", "Light coffee users",
+        "MI", "Controls", 
+        conf.level = 0.90) 
+```
+
+# Question 4 (25 points) 
+
+In class, we've been discussing two sets of probabilistic forecasts of the upcoming U.S. Presidential, Senate and House Elections, one built by *The Economist* and one built by *FiveThirtyEight*. In *The Art of Statistics* Spiegelhalter discusses some of the issues involved in creating and assessing probabilistic forecasts. 
+
+Write an essay to identify (and cite properly) some of the arguments provided at the forecasting source you choose (*The Economist* or *FiveThirtyEight*) about how their models should be interpreted, and connect, compare and contrast that information with what you've been reading about in Spiegelhalter. 
+
+A complete essay should include complete English sentences, and 150 to 250 words. To help you understand the length we are looking for, this set of Question 4 instructions is 125 words long.
+
+## Question 4 rubric
+
+We don't provide answer sketches to essay questions. 
+
+Essays will be graded on a scale from 0-25. 5 points are associated with meeting the specifications of the essay successfully, specifically:
+
+- Appropriate length (150 - 250 words) 
+- Appropriate spelling and grammar   
+- Clear and sufficient citation of either *The Economist* or *FiveThirtyEight*
+
+The remaining 20 points will be awarded based on the clarity of your essay and how thoughtful your answer to the question is.
+
+
+# Session Information
+
+```{r}
+sessionInfo()
+```

@@ -39,6 +39,12 @@ Within the next week (by 2020-11-19) you will put together [your Study 2 Data Pl
 The only thing still to come for Study 2 (and this will appear before the Thanksgiving Break) is a [Study 2 Demonstration Project](https://thomaselove.github.io/431-2020-projectB/your7.html). 
 - Note that the Demonstration Project uses simulated data, so while it should be very helpful to you for thinking about completing analyses using R, it won't be of any help to you at all in selecting your Study 2 data set. 
 
+## NEW! Regarding Partnerships for Project B
+
+By **noon tomorrow** (2020-11-13) I will send out emails to a few individuals requiring them to work alone on Project B, for a variety of reasons, having to do with Project A, previous performance in the course, and degree requirements. I am sorry if this is frightening, but I want to maximize what I can learn about you (and give you the best opportunity to show off your skills) in light of your performance so far
+    - Should you receive an email from me telling me that you're in that situation and were planning to work with a partner, you and your partner are allowed to work together to (a) merge the Study 1 data and (b) select and import Study 2 data, and you can even have the same code in your final reports for those two activities, but you will then need to work separately from that point forward.
+    - Should you receive such an email, do not worry about it. You can do this.
+
 ## What Should I be working on?
 
 1. [Lab 07](https://github.com/THOMASELOVE/431-2020/blob/master/labs/README.md) is due at 9 PM on Monday 2020-11-16. 

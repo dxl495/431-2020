@@ -30,8 +30,15 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
 
 ![](https://github.com/THOMASELOVE/431-2020/blob/master/classes/class22/images/senn.PNG)
 
-# Three Last Things
+# A Few Things about the Election
 
 - [The Polls Weren’t Great. But That’s Pretty Normal](https://fivethirtyeight.com/features/the-polls-werent-great-but-thats-pretty-normal/) from Nate Silver posted 2020-11-11 at FiveThirtyEight.
 - [Lying with Statistics](https://statmodeling.stat.columbia.edu/2020/11/10/lying-with-statistics/) from Andrew Gelman at his blog, 2020-11-10.
+- [Where We Saw Red And Blue Mirages On Election Night](https://fivethirtyeight.com/features/where-we-saw-red-and-blue-mirages-on-election-night/) by Laura Bronner, Anna Wiederkehr and Nathaniel Rakich at FiveThirtyEight has a really interesting visualization, copied below.
+
+![](https://github.com/THOMASELOVE/431-2020/blob/master/classes/class22/images/crawl.png)
+
+# One Last Thing
+
 - There's an entertaining video on YouTube entitled [Why do Biden's votes not follow Benford's Law?](https://www.youtube.com/watch?v=etx0k1nLn78) by Matt Parker, who goes by [Stand-up Maths](http://standupmaths.com/) online and has a book out called *Humble Pi* which I hope to get around to reading soon.
+- More on [Benford's Law](https://en.wikipedia.org/wiki/Benford%27s_law) like most things, can be found at [Wikipedia](https://en.wikipedia.org/wiki/Benford%27s_law).

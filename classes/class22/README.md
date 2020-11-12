@@ -4,11 +4,11 @@
 :-----------: | :--------------: | :----------: | :---------: | :-------------: | :-----------: | :------------:
 for everything | for deadlines | expectations | from Dr. Love | ways to get help | zoom information | for downloads
 
-**Quote to come.**
+![](https://github.com/THOMASELOVE/431-2020/blob/master/classes/class22/images/dataviz.png)
 
 ## Today's Slides
 
-- Class 22 slides will be available in [PDF format](https://github.com/THOMASELOVE/431-2020/blob/master/classes/class22/431_class-22-slides_2020.pdf), as well as in [R Markdown](https://github.com/THOMASELOVE/431-2020/blob/master/classes/class22/431_class-22-slides_2020.Rmd).
+- Class 22 slides are now available in [PDF format](https://github.com/THOMASELOVE/431-2020/blob/master/classes/class22/431_class-22-slides_2020.pdf), as well as in [R Markdown](https://github.com/THOMASELOVE/431-2020/blob/master/classes/class22/431_class-22-slides_2020.Rmd).
     - Actually, the slides posted here are longer than usual. They include materials for Classes 22, 23 and 24, so you'll find them posted to those classes as well, as we go along. 
     - The only changes (barring me finding mistakes) I intend are that I will add a slide each day to indicate where we stopped. 
     - Over these next three classes, I will discuss everything I am hoping you will use in Project B Study 2 that we have not yet covered, so that you'll be ready to do Study 2 a week from now, once I've signed off on your Study 2 Data Plan.
@@ -26,4 +26,8 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
     - Remember that your lowest two lab grades this semester are ignored, so you can skip two if you did well on the others, although Labs 7 and 8 are an excellent way to build up skills for Quiz 2 and Project B.
 3. The Project B [Study 2 Data Plan](https://thomaselove.github.io/431-2020-projectB/your5.html) is due at noon on Thursday 2020-11-19.
 4. Look at the [Calendar](https://thomaselove.github.io/431/calendar.html) (also summarized in the [Class 21 README](https://github.com/THOMASELOVE/431-2020/tree/master/classes/class21#there-are-ten-remaining-deliverables-this-semester)) for remaining deliverables and deadlines.
+
+# One Last Thing
+
+- [The Polls Weren’t Great. But That’s Pretty Normal](https://fivethirtyeight.com/features/the-polls-werent-great-but-thats-pretty-normal/) from Nate Silver posted 2020-11-11 at FiveThirtyEight.
 

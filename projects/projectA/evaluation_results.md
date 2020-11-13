@@ -1,5 +1,25 @@
 # Evaluation of Project A
 
+Thank you all for your work on the project. An email from me with the subject line **431 Project A Results** should appear in your preferred email by 5 PM on 2020-11-13. Please read the comments as coming from multiple people (including not just myself but also the TAs) and I hope you will forgive us any typographical or syntax errors, as I didn't find the time to closely edit all 70 sets of comments.
+
+- Grades of 85 and higher at the end of the semester convert to some form of A.
+- Grades of 70 to 84.9 at the end of the semester convert to some form of B.
+
+## Breakdown of Scores
+
+- Most students scored at least a B. Those that did not skipped an important step in the process.
+- The median grade on the Proposal (out of 25 points) was 22.5, and the maximum score achieved was 25
+- The median grade on the Report (out of 40 points) was 34, and the maximum score achieved was 39
+- The median grade on the Video (out of 25 points) was 20, and the maximum score achieved was 24.5
+- The median grade on the Self-Evaluation (out of 10 points) was 9, and the maximum score achieved was 9.5
+- No penalties were applied for lateness on the final report/video/self-evaluation.
+
+## Sharing a Video
+
+I plan to share just one of the video presentation, in an effort not to overwhelm you. When I have permission from the student involved, I will post it. While the presentation isn't perfect, it does show what I believe to be an excellent result within the 3 minute time limit for an individual presentation, which is focused nicely on the things I thought were most important in their analysis. It also made good use of technology that should be available to you all, as opposed to some of the others that used very polished editing strategies. I'll note that there were many solid presentations, and some that were truly excellent, besides the one that I will share.
+
+## Comments in the Self-Evaluations
+
 Unedited results from two questions asked in the self-evaluation follow, if you're interested to see what people (said they) learned.
 
 1. [What was the key finding of your study?](https://github.com/THOMASELOVE/431-2020/blob/master/projects/projectA/evaluation_results.md#what-was-the-key-finding-of-your-study)

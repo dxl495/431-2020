@@ -16,7 +16,9 @@ Thank you all for your work on the project. An email from me with the subject li
 
 ## Sharing a Video
 
-I plan to share just one of the video presentation, in an effort not to overwhelm you. When I have permission from the student involved, I will post it. While the presentation isn't perfect, it does show what I believe to be an excellent result within the 3 minute time limit for an individual presentation, which is focused nicely on the things I thought were most important in their analysis. It also made good use of technology that should be available to you all, as opposed to some of the others that used very polished editing strategies. I'll note that there were many solid presentations, and some that were truly excellent, besides the one that I will share.
+I plan to share just one of the video presentations, in an effort not to overwhelm you, and to encourage you all to watch it. When I have permission from the student involved, I will post it here. 
+
+While the presentation isn't perfect, it does show what I believe to be an excellent result within the 3 minute time limit for an individual presentation, which is focused nicely on the things I thought were most important in their analysis. It also made good use of technology that should be available to you all, as opposed to some of the others that used very polished editing strategies. I'll note that there were many solid presentations, and some that were truly excellent, in addition to the one that I plan to share.
 
 ## Comments in the Self-Evaluations
 
@@ -24,6 +26,8 @@ Unedited results from two questions asked in the self-evaluation follow, if you'
 
 1. [What was the key finding of your study?](https://github.com/THOMASELOVE/431-2020/blob/master/projects/projectA/evaluation_results.md#what-was-the-key-finding-of-your-study)
 2. [What is the most important thing that you know now that you wished you'd known when you began Project A?](https://github.com/THOMASELOVE/431-2020/blob/master/projects/projectA/evaluation_results.md#what-is-the-most-important-thing-that-you-know-now-that-you-wished-youd-known-when-you-began-project-a)
+
+The comments below are simply ordered alphabetically by comment.
 
 ### What was the key finding of your study?
 

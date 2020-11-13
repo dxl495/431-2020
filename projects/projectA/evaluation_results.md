@@ -14,7 +14,7 @@ Most students scored at least a B on Project A. Those that did not skipped an im
 - The median grade on the Proposal (out of 25 points) was 22.5, and the maximum score achieved was 25
 - The median grade on the Report (out of 40 points) was 34, and the maximum score achieved was 39
 - The median grade on the Video (out of 25 points) was 20, and the maximum score achieved was 24.5
-- The median grade on the Self-Evaluation (out of 10 points) was 9, and the maximum score achieved was 9.5
+- The median grade on the Self-Evaluation (out of 10 points) was 8.5, and the maximum score achieved was 9.5
 - No penalties were applied for lateness on the final report/video/self-evaluation.
 
 If you have questions about your grade, please email Dr. Love directly.

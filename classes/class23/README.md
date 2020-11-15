@@ -33,7 +33,8 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
     - Questions on the Minute Paper will include (1) In what time zone will you be on December 9-11 of this year (2) Do you prefer giving a Zoom presentation or a pre-recorded video for Project B? (3) Are you working with a partner for Project B, and if so, who are you working with? 
     - I am eliciting your preferences about presenting your Project B work, but I cannot promise that I will be bound by them.
 2. The Project B [Study 2 Data Plan](https://thomaselove.github.io/431-2020-projectB/your5.html) is due at noon on Thursday 2020-11-19. 
-    - As a reminder, you have all of the information you need to get your Study 2 data now, [either from NHANES or from a source you identify](https://thomaselove.github.io/431-2020-projectB/your1.html). Once you have the data in R, you can complete the [Data Plan](https://thomaselove.github.io/431-2020-projectB/your5.html).
+    - As a reminder, you have all of the information you need to get your Study 2 data now, [either from NHANES or from a source you identify](https://thomaselove.github.io/431-2020-projectB/your1.html). Once you have the data in R, you can complete the [Data Plan](https://thomaselove.github.io/431-2020-projectB/your5.html). Actually filling out the form shouldn't take more than 15 minutes, at most.
+    - Dr. Love is reviewing these submissions daily and responding via email. It's important for all of you to get the plan in on time, so I can get them all back to you Thursday, and you can make any necessary changes so that you have an accepted plan by 5 PM Friday 2020-11-20.
 
 ### During Thanksgiving Break
 

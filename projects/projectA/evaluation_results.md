@@ -27,9 +27,11 @@ If you have questions about your grade, please email Dr. Love directly.
 
 ## Sharing a Video
 
-I plan to share just one of the video presentations, in an effort not to overwhelm you, and to encourage you all to watch it. When I have permission from the student involved, I will post it here. 
+In the Project B folder on our Shared Team Drive, you will find a video (by Peng Zhang) from Project A that I think provides a good example of what we were looking for. Thank you, Peng, for permitting me to share this.
 
-While the presentation isn't perfect, it does show what I believe to be an excellent result within the 3 minute time limit for an individual presentation, which is focused nicely on the things I thought were most important in their analysis. It also made good use of technology that should be available to you all, as opposed to some of the others that used very polished editing strategies. I'll note that there were many solid presentations, and some that were truly excellent, in addition to the one that I plan to share.
+- While I would not claim that Peng's video is perfect, it displays an excellent result within the 3 minute time limit for an individual presentation, which is focused nicely on the things I thought were most important in their analysis. 
+- It also made good use of technology that should be available to you all, as opposed to requiring some editing strategies that go beyond the scopr of the course. I didn't want to show an example that was anything more complicated than a Zoom recording.
+- I'll note that there were many solid presentations, and some that were truly excellent, in addition to this one.
 
 ## Working with a Partner
 

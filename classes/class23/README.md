@@ -82,8 +82,8 @@ You may be interested in subscribing to:
 
 Where does "94.5% effective" come from in the reports of Moderna's mRNA Covid-19 vaccine?
 
-- 95 positive cases observed, with 90 in the unvaccinated group, 5 in the vaccinated group in a 30,000 person trial
-- If we expected that 90 people in the vaccinated group should have been diagnosed, the vaccine successfully prevented 85 of 90 expected infections, and 85/90 = 0.9444
+- 95 positive cases observed, with 90 in the unvaccinated (placebo) group, 5 in the vaccinated group in a 30,000 person trial.
+- If we expected that 90 people in the vaccinated group should have been diagnosed, the vaccine successfully prevented 85 of 90 expected infections, and 85/90 = 0.9444.
     - If the number of positive cases was the same in the unvaccinated and vaccinated groups, then the efficacy would be zero.
     - There were 11 cases of severe disease, all in the placebo group.
     - People of color make up 37% of the volunteers in Moderna's trial.

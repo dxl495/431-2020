@@ -17,7 +17,8 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
 1. Results of Minute Paper after Class 23 **to come**.
 2. Status report on Project B Study 2 Data Plans (due today at noon) [can be found here](https://github.com/THOMASELOVE/431-2020/blob/master/projects/projectB/study2-dataplan-status.md).
 3. I've updated [the R Packages list](https://thomaselove.github.io/431/r_packages.html) to include `equatiomatic`.
-4. No class next week. 
+4. Regarding NHANES for Study 2 in Project B, I made a [short video](https://github.com/THOMASELOVE/431-2020/blob/master/projects/projectB/README.md#video-to-help-you-deal-with-some-common-nhanes-issues) where I pulled some data from NHANES 2017-18, merged it, and then changed  values like "Refused" or "Don't Know" in a variable to missing values. [Details are here](https://github.com/THOMASELOVE/431-2020/blob/master/projects/projectB/README.md#video-to-help-you-deal-with-some-common-nhanes-issues).
+5. No class next week. 
     - TA office hours will be held through Friday 2020-11-20 and then not again until Saturday 2020-11-28. 
     - Dr. Love will address Piazza questions and emails on Monday 2020-11-23 and then not again regularly (although he'll check in when he can) until Monday 2020-11-30.
 

@@ -19,7 +19,7 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
 3. I've updated [the R Packages list](https://thomaselove.github.io/431/r_packages.html) to include `equatiomatic`.
 4. No class next week. 
     - TA office hours will be held through Friday 2020-11-20 and then not again until Saturday 2020-11-28. 
-    - Dr. Love will address Piazza questions and emails on Monday 2020-11-23 and then not again until Monday 2020-11-30.
+    - Dr. Love will address Piazza questions and emails on Monday 2020-11-23 and then not again regularly (although he'll check in when he can) until Monday 2020-11-30.
 
 ## What Should I Be Working On?
 

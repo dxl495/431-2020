@@ -1,0 +1,128 @@
+---
+title: "Quick NHANES Video"
+author: "Thomas E. Love"
+date: "`r Sys.Date()`"
+output: 
+    html_document:
+        number_sections: TRUE
+        toc: TRUE
+        code_folding: show
+        toc_float: TRUE
+---
+
+# Setup
+
+```{r setup}
+knitr::opts_chunk$set(comment = NA)
+
+library(nhanesA)
+library(janitor)
+library(magrittr)
+library(tidyverse)
+```
+
+# Ingest the NHANES data
+
+Three NHANES databases.
+
+- Demographics (DEMO_J)
+- Lab Data (Complete Blood Count with 5-Part Differential) (CBC_J)
+- Questionnaire Data (Current Health Status) (HSQ_J)
+
+```{r}
+demo_raw <- nhanes('DEMO_J') %>% tibble()
+cbc_raw <- nhanes('CBC_J') %>% tibble()
+hsq_raw <- nhanes('HSQ_J') %>% tibble()
+```
+
+From Demographics, I want the following variables.
+
+- SEQN
+- RIDSTATR
+- RIDAGEYR
+- DMDBORN4
+
+```{r}
+demo1 <- demo_raw %>% 
+    select(SEQN, RIDSTATR, RIDAGEYR, DMDBORN4) %>%
+    filter(complete.cases(.))
+
+dim(demo1)
+```
+
+From CBC data, I want:
+
+- SEQN
+- LBXWBCSI
+
+```{r}
+cbc1 <- cbc_raw %>%
+    select(SEQN, LBXWBCSI) %>%
+    filter(complete.cases(.))
+
+dim(cbc1)
+```
+
+From the HSQ data, I want:
+
+- SEQN
+- HSD010
+
+```{r}
+hsq1 <- hsq_raw %>%
+    select(SEQN, HSD010) %>%
+    filter(complete.cases(.))
+
+dim(hsq1)
+```
+
+# Merge these data sets
+
+```{r}
+temp_new <- left_join(demo1, cbc1, by = "SEQN")
+
+dim(temp_new)
+```
+
+```{r}
+merged_data <- left_join(temp_new, hsq1, by = "SEQN") %>%
+    filter(complete.cases(.))
+
+dim(merged_data)
+```
+
+# Clean up these data
+
+```{r}
+Hmisc::describe(merged_data)
+```
+
+```{r}
+merged_data %>% tabyl(DMDBORN4)
+```
+
+In DMDBORN4, the codes mean the following:
+
+- 1 means in the US
+- 2 means outside the US
+- 77 means Refused and should be treated as NA
+- 99 means Don't Know and should be treated as NA
+
+We want to change the 77 and 99 to NA, and then relabel 1 and 2 to be more meaningful.
+
+```{r}
+dim(merged_data)
+
+mydata <- merged_data %>%
+    mutate(DMDBORN4 = na_if(DMDBORN4, "77"),
+           DMDBORN4 = na_if(DMDBORN4, "99")) %>%
+    mutate(DMDBORN4 = 
+               fct_recode(factor(DMDBORN4),
+                          "US" = "1",
+                          "non-US" = "2")) %>%
+    filter(complete.cases(.)) 
+
+dim(mydata)
+
+mydata %>% tabyl(DMDBORN4)
+```

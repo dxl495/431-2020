@@ -10,8 +10,24 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
 
 ## Today's Slides
 
-- Class 24 slides will be available in [PDF format](https://github.com/THOMASELOVE/431-2020/blob/master/classes/class24/431_class-24-slides_2020.pdf), as well as in [R Markdown](https://github.com/THOMASELOVE/431-2020/blob/master/classes/class24/431_class-24-slides_2020.Rmd).
+- Class 24 slides are available in [PDF format](https://github.com/THOMASELOVE/431-2020/blob/master/classes/class24/431_class-24-slides_2020.pdf), as well as in [R Markdown](https://github.com/THOMASELOVE/431-2020/blob/master/classes/class24/431_class-24-slides_2020.Rmd).
 
 ## Announcements
 
-1. More to come.
+1. Results of Minute Paper after Class 23 **to come**.
+2. Status report on Project B Study 2 Data Plans (due today at noon) [can be found here](https://github.com/THOMASELOVE/431-2020/blob/master/projects/projectB/study2-dataplan-status.md).
+3. No class next week. TA office hours will be held through Friday 2020-11-20 and then not again until Saturday 2020-11-28. Dr. Love will address Piazza questions and emails on Monday 2020-11-23, but will be unavailable until Sunday 2020-11-29 after that.
+
+## What Should I Be Working On?
+
+1. Staying healthy, keeping other people healthy, and taking care of those that need your help. **Make good choices.**
+2. Your Project B [Study 2 Data Plan](https://thomaselove.github.io/431-2020-projectB/your5.html), if not already approved.
+3. Over the break, please:
+    - finish reading Spiegelhalter's *The Art of Statistics*
+    - watch the [extra videos from Class 20](https://github.com/THOMASELOVE/431-2020/tree/master/classes/class20#the-extra-materials-for-class-20-are-provided-below)
+4. [Lab 8](https://github.com/THOMASELOVE/431-2020/blob/master/labs/lab08/lab08.md) is due Monday 2020-11-30.
+5. [Project B](https://thomaselove.github.io/431-2020-projectB) Study 1 and Study 2 are now in your hands, assuming I've approved your Data Plan. The reports and other materials are due 2020-12-10 at noon.
+
+## One Last Thing
+
+To come.

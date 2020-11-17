@@ -13,7 +13,7 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
 
 ## Announcements
 
-1. The Lab 07 sketch and rubric **will be posted** on Tuesday 2020-11-17 by noon.
+1. The [Lab 07 sketch and rubric](https://github.com/THOMASELOVE/431-2020/tree/master/labs/lab07) are now available.
 2. Grades on Lab 06 are [now posted](http://bit.ly/431-2020-grades) in the usual place. 
     - Here's a [reminder regarding Regrade Requests](https://github.com/THOMASELOVE/431-2020/tree/master/labs#grading-errors-and-regrade-requests).
     - Here's a [reminder about our policy on late Lab assignments](https://github.com/THOMASELOVE/431-2020/tree/master/labs#late-work).
@@ -41,8 +41,8 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
 7. The [Study 2 Demonstration Project](https://thomaselove.github.io/431-2020-projectB/your7.html) is now available as part of the [Project B instructions](https://thomaselove.github.io/431-2020-projectB/).
     - You can view the [HTML version of the Study 2 Demo Project here](https://rpubs.com/TELOVE/projB-study2-demo).
     - Some minor revisions have been posted to the Project B Instructions, in the [Study 1 demo project](https://thomaselove.github.io/431-2020-projectB/your6.html), and for the report specifications for [Study 1](https://thomaselove.github.io/431-2020-projectB/survey5.html) and [Study 2](https://thomaselove.github.io/431-2020-projectB/your6.html).
-8. Need to pull the coefficients from a regression equation out of an R model to present the equation? Davis Weaver was good enough to suggest the [equatiomatic package](https://github.com/datalorax/equatiomatic), which I've now used in the [Study 2 Demo Project](https://rpubs.com/TELOVE/projB-study2-demo).
-9. This Friday 2020-11-20 from 10 AM to 1 PM is the Virtual Public Health Innovations Conference sponored by the MPH program at CWRU, and open to all. [This pdf flyer](https://github.com/THOMASELOVE/431-2020/blob/master/classes/class23/Fall%202020%20Innovations%20full%20agenda.pdf) has all of the information.
+8. Need to pull the coefficients from a regression equation out of an R model to present the equation? Davis Weaver was good enough to suggest the [equatiomatic package](https://github.com/datalorax/equatiomatic), which I've now used in the [Study 2 Demo Project](https://rpubs.com/TELOVE/projB-study2-demo) and in the [Lab 7 Sketch](https://github.com/THOMASELOVE/431-2020/tree/master/labs/lab07).
+9. This Friday, 2020-11-20 from 10 AM to 1 PM is the Virtual Public Health Innovations Conference sponored by the MPH program at CWRU, and open to all. [This pdf flyer](https://github.com/THOMASELOVE/431-2020/blob/master/classes/class23/Fall%202020%20Innovations%20full%20agenda.pdf) has all of the information.
     - Several folks affiliated with this course are part of the virtual poster session, and there are some very interesting talks planned, including opening remarks from Daniel Tisch and Peter Zimmerman on "Explaining the current state of COVID-19: Preparing to Answer your relatives' burning questions around the Thanksgiving Dinner Table." 
 
 ## What Should I Be Working On?

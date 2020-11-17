@@ -60,10 +60,10 @@ Here is the Question 1 rubric.
 
 Here is the Question 2 rubric.
 
-- Award 4 points if a reasonable suggestion to improve the visualization is provided.  
-- Award another 4 points if the suggestion was properly justified.  
+- Award 6 points if a reasonable suggestion to improve the visualization is provided.  
+- Award another 6 points if the suggestion was properly justified.  
 - The entire response must be written in complete English sentences and use proper grammar.  
-- Award up to 2 more points if the student did a particularly good job  
+- Award up to 3 more points if the student did a particularly good job  
 
 # Question 3 (10 points)
 

@@ -1233,3 +1233,11 @@ This is for you to work on.
 
 Interpreting the CMH results, our point estimate for the common population odds ratio comparing rates of prior R use use among those who prefer `english` and those who don't is 1.26, with 90% confidence interval (0.48, 3.29). So we'd conclude that there is no statistically detectable association between `r_before_r` and `english_r` after accounting for `grades_r2` preference. We can also see this through the *p* value of 0.92, which is much larger than $\alpha = 0.10$.
 
+# Session Information
+
+End your report with the session information, in its own section.
+
+```{r}
+sessionInfo()
+```
+

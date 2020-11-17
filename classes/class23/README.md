@@ -62,7 +62,6 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
 2. Please watch the [extra videos associated with Class 20](https://github.com/THOMASELOVE/431-2020/tree/master/classes/class20#the-extra-materials-for-class-20-are-provided-below) before the end of Thanksgiving Break. They will help you with Project B Study 1, and with Quiz 2, at the least.
 3. [Lab 8](https://github.com/THOMASELOVE/431-2020/blob/master/labs/lab08/lab08.md) is due Monday 2020-11-30. It uses materials from Classes 19-24.
 4. Project B Study 1 (which you can do now) and Study 2 reports and other materials are due 2020-12-10 at noon.
-    - You can do Study 1 now.
     - You can do some of Study 2 now, and you'll be able to do all of it after (1) I've approved [your Study 2 Data Plan](https://thomaselove.github.io/431-2020-projectB/your5.html) **and** (2) we've completed Class 24.
 
 ## One Last Thing

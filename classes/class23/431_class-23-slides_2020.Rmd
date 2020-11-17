@@ -860,6 +860,8 @@ For now, a studentized residual is just another way to standardize the residuals
 
 - There's no indication that having a maximum absolute value of 3.34 in a sample of `r nrow(aug1)` studentized residuals is a major concern about the assumption of Normality, given the Bonferroni p value of 0.27.
 
+# This is where we stopped after Class 23. We'll restart here in Class 24.
+
 ## Scale-Location: Check for heteroscedasticity (`mod_1`)
 
 ```{r}

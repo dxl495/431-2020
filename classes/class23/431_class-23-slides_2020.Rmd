@@ -44,6 +44,7 @@ library(simputation) # new
 library(car) # for boxCox
 library(GGally) # for ggpairs
 library(ggrepel) # help with residual plots
+library(equatiomatic) # help with equation extraction
 library(knitr)
 library(janitor)
 library(magrittr)
@@ -576,6 +577,15 @@ tidy_m1 %>%
   knitr::kable(digits = 4)
 ```
 
+## The Regression Equation (`mod_1`)
+
+Use the `equatiomatic` package to help here. Note the use of **results = 'asis'** in the code chunk name.
+
+```{r, results = 'asis'}
+extract_eq(mod_1, use_coefs = TRUE, coef_digits = 4,
+           ital_vars = TRUE)
+```
+
 ## Summary of Fit Quality (mod_1)
 
 ```{r}
@@ -585,6 +595,7 @@ glance(mod_1) %>%
          sigma, AIC, BIC) %>%
   knitr::kable(digits = c(0, 3, 3, 3, 0, 0))
 ```
+
 
 ## Tidied coefficients (`mod_2`)
 
@@ -597,6 +608,15 @@ tidy_m2 %>%
   knitr::kable(digits = 4)
 ```
 
+## The Regression Equation (`mod_2`)
+
+Again, we'll use the `equatiomatic` package, with **results = 'asis'**.
+
+```{r, results = 'asis'}
+extract_eq(mod_2, use_coefs = TRUE, coef_digits = 4,
+           ital_vars = TRUE)
+```
+
 ## Summary of Fit Quality (mod_2)
 
 ```{r}
@@ -607,15 +627,26 @@ glance(mod_2) %>%
   knitr::kable(digits = c(0, 3, 3, 3, 0, 0))
 ```
 
+
+
 ## Tidied coefficients (`mod_3`)
 
 ```{r}
 tidy_m3 <- tidy(mod_3, conf.int = TRUE, conf.level = 0.95)
 
 tidy_m3 %>%
-  select(term, estimate, std.error, p.value, 
-         conf.low, conf.high) %>%
-  knitr::kable(digits = 4)
+  select(term, estimate, se = std.error, 
+         low = conf.low, high = conf.high, p = p.value) %>%
+  knitr::kable(digits = c(4,4,4,4,3))
+```
+
+## The Regression Equation (`mod_3`)
+
+Again, we'll use the `equatiomatic` package.
+
+```{r, results = 'asis'}
+extract_eq(mod_3, use_coefs = TRUE, coef_digits = 4,
+           ital_vars = TRUE, wrap = TRUE, terms_per_line = 2)
 ```
 
 ## Summary of Fit Quality (mod_3)
@@ -864,6 +895,19 @@ par(mfrow = c(2,2)); plot(mod_2); par(mfrow = c(1,1))
 ```{r, echo = FALSE}
 par(mfrow = c(2,2)); plot(mod_3); par(mfrow = c(1,1))
 ```
+
+## Is collinearity a serious issue here?
+
+```{r}
+car::vif(mod_3)
+```
+
+- Collinearity = correlated predictors
+- (generalized) Variance Inflation Factor tells us something about how the standard errors of our coefficients are inflated as a result of correlation between predictors.
+    - We tend to worry most about VIFs in this output that exceed 5.
+    - Remember that the scatterplot matrix didn't suggest any strong correlations between our predictors.
+
+What would we do if we had strong collinearity? Drop a predictor?
 
 ## Conclusions so far?
 
@@ -1579,6 +1623,15 @@ tidy_im1 %>%
   knitr::kable(digits = 4)
 ```
 
+## The Regression Equation (`imod_1`)
+
+Again, we'll use the `equatiomatic` package.
+
+```{r, results = 'asis'}
+extract_eq(imod_1, use_coefs = TRUE, coef_digits = 4,
+           ital_vars = TRUE, wrap = TRUE, terms_per_line = 3)
+```
+
 ## Summary of Fit Quality (imod_1)
 
 ```{r}
@@ -1600,6 +1653,15 @@ tidy_im2 %>%
   knitr::kable(digits = 4)
 ```
 
+## The Regression Equation (`imod_2`)
+
+Again, we'll use the `equatiomatic` package, and **results = 'asis'**.
+
+```{r, results = 'asis'}
+extract_eq(imod_2, use_coefs = TRUE, coef_digits = 4,
+           ital_vars = TRUE)
+```
+
 ## Summary of Fit Quality (imod_2)
 
 ```{r}
@@ -1616,9 +1678,18 @@ glance(imod_2) %>%
 tidy_im3 <- tidy(imod_3, conf.int = TRUE, conf.level = 0.95)
 
 tidy_im3 %>%
-  select(term, estimate, std.error, p.value, 
-         conf.low, conf.high) %>%
-  knitr::kable(digits = 4)
+  select(term, estimate, se = std.error, 
+         low = conf.low, high = conf.high, p = p.value) %>%
+  knitr::kable(digits = c(4,4,4,4,3))
+```
+
+## The Regression Equation (`imod_3`)
+
+Again, we'll use the `equatiomatic` package.
+
+```{r, results = 'asis'}
+extract_eq(imod_3, use_coefs = TRUE, coef_digits = 4,
+           ital_vars = TRUE, wrap = TRUE, terms_per_line = 2)
 ```
 
 ## Summary of Fit Quality (imod_3)
@@ -1848,6 +1919,18 @@ p4 <- ggplot(augi3, aes(x = .hat, y = .std.resid)) +
 
 ```{r, echo = FALSE}
 par(mfrow = c(2,2)); plot(imod_3); par(mfrow = c(1,1))
+```
+
+## Is collinearity a serious issue here?
+
+```{r}
+car::vif(imod_3)
+```
+
+None of these values exceed 5, so it doesn't seem like there's any problem. 
+
+```{r}
+car::vif(imod_2)
 ```
 
 ## Conclusions so far?

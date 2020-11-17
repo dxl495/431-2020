@@ -70,7 +70,7 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
 5. Project B Study 1 (which you can do now) and Study 2 reports and other materials are due 2020-12-10 at noon.
     - You can do some of Study 2 now, and you'll be able to do all of it after (1) I've approved [your Study 2 Data Plan](https://thomaselove.github.io/431-2020-projectB/your5.html) **and** (2) we've completed Class 24.
 
-## One Last Thing
+## Subscriptions, Anyone?
 
 You may be interested in subscribing to:
 
@@ -78,4 +78,13 @@ You may be interested in subscribing to:
 - [Morning Distribution](https://fivethirtyeight.com/newsletter/morning/), a daily newsletter from FiveThirtyEight.
 - [Pod of Asclepius](https://www.podofasclepius.com/mail-list) Mailing List for updates on the [Philosophy of Data Science series](https://www.youtube.com/watch?v=yeHEfHN39Cc).
 
+## One Last Thing (COVID-19 related)
 
+Where does "94.5% effective" come from in the reports of Moderna's mRNA Covid-19 vaccine?
+
+- 95 positive cases observed, with 90 in the unvaccinated group, 5 in the vaccinated group in a 30,000 person trial
+- If we expected that 90 people in the vaccinated group should have been diagnosed, the vaccine successfully prevented 85 of 90 expected infections, and 85/90 = 0.9444
+    - If the number of positive cases was the same in the unvaccinated and vaccinated groups, then the efficacy would be zero.
+    - There were 11 cases of severe disease, all in the placebo group.
+    - People of color make up 37% of the volunteers in Moderna's trial.
+- My source: [STAT news](https://www.statnews.com/2020/11/16/with-strong-data-on-two-covid-19-vaccines-we-have-more-answers-about-the-road-ahead-and-questions-too/)

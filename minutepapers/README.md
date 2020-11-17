@@ -12,14 +12,14 @@ After Class | due | Link to Minute Paper Form | Link to Dr. Love's Feedback
 ### Completed Minute Papers
 
 After Class | due | Link to Minute Paper Form | Link to Dr. Love's Feedback
-----------: | ------: | --------: | ----------:
+----------: | ------: | :--------: | :----------:
 3 (2020-09-01) | 2020-09-02 | http://bit.ly/431-2020-minute-03 | http://bit.ly/431-2020-minute-03-feedback
 5 (2020-09-08) | 2020-09-09 | http://bit.ly/431-2020-minute-05 | http://bit.ly/431-2020-minute05-feedback
 7 (2020-09-15) | 2020-09-16 | http://bit.ly/431-2020-minute-07 | http://bit.ly/431-2020-minute-07-feedback
 9 (2020-09-22) | 2020-09-23 | http://bit.ly/431-2020-minute-09 | http://bit.ly/431-2020-minute-09-feedback
 11 (2020-09-29) | 2020-09-30 | http://bit.ly/431-2020-minute-11 | http://bit.ly/431-2020-min11-feedback
 15 (2020-10-13) | 2020-10-14 | http://bit.ly/431-2020-minute-15 | http://bit.ly/431-2020-min15-feedback
-18 (2020-10-27) | 2020-10-28 NOON | http://bit.ly/431-2020-minute-18 | http://bit.ly/431-2020-min18-feedback
+18 (2020-10-27) | 2020-10-28 | http://bit.ly/431-2020-minute-18 | http://bit.ly/431-2020-min18-feedback
 21 (2020-11-10) | 2020-11-11 | Project B Study 1 Survey. | Everyone completed this.
 
 **Dr. Love's records about submission of minute papers** are found in the course grading roster at http://bit.ly/431-2020-grades. 

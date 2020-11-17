@@ -69,4 +69,9 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
 
 ## One Last Thing
 
-To come.
+You may be interested in subscribing to:
+
+- [Numlock News](https://numlock.substack.com/), by Walt Hickey, a daily news brief about Numbers in the News.
+- [Morning Distribution](https://fivethirtyeight.com/newsletter/morning/), a daily newsletter from FiveThirtyEight.
+- [Pod of Asclepius](https://www.podofasclepius.com/mail-list) Mailing List for updates on the [Philosophy of Data Science series](https://www.youtube.com/watch?v=yeHEfHN39Cc).
+

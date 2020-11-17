@@ -61,17 +61,22 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
 - TA office hours will be held as usual on Friday 2020-11-20, and then not again until Saturday 2020-11-28. 
 - Dr. Love will review Piazza and respond to all questions on Monday 2020-11-23 and then not again before Saturday 2020-11-28.
 
-1. Please finish reading Spiegelhalter's *The Art of Statistics*. It will play a more substantial role in our conversations for Classes 25-26 and it will also appear on Quiz 2.
-2. Please watch the [extra videos associated with Class 20](https://github.com/THOMASELOVE/431-2020/tree/master/classes/class20#the-extra-materials-for-class-20-are-provided-below) before the end of Thanksgiving Break. They will help you with Project B Study 1, and with Quiz 2, at the least.
-3. [Lab 8](https://github.com/THOMASELOVE/431-2020/blob/master/labs/lab08/lab08.md) is due Monday 2020-11-30. It uses materials from Classes 19-24.
-4. Project B Study 1 (which you can do now) and Study 2 reports and other materials are due 2020-12-10 at noon.
+1. Please do what you can to keep yourself healthy and your friends/family healthy, as well.
+2. Please finish reading Spiegelhalter's *The Art of Statistics*. It will play a more substantial role in our conversations for Classes 25-26 and it will also appear on Quiz 2.
+3. Please watch the [extra videos associated with Class 20](https://github.com/THOMASELOVE/431-2020/tree/master/classes/class20#the-extra-materials-for-class-20-are-provided-below) before the end of Thanksgiving Break. They will help you with Project B Study 1, and with Quiz 2, at the least.
+4. [Lab 8](https://github.com/THOMASELOVE/431-2020/blob/master/labs/lab08/lab08.md) is due Monday 2020-11-30. It uses materials from Classes 19-24.
+5. Project B Study 1 (which you can do now) and Study 2 reports and other materials are due 2020-12-10 at noon.
     - You can do some of Study 2 now, and you'll be able to do all of it after (1) I've approved [your Study 2 Data Plan](https://thomaselove.github.io/431-2020-projectB/your5.html) **and** (2) we've completed Class 24.
 
-## One Last Thing
+## Subscriptions, anyone?
 
 You may be interested in subscribing to:
 
 - [Numlock News](https://numlock.substack.com/), by Walt Hickey, a daily news brief about Numbers in the News.
 - [Morning Distribution](https://fivethirtyeight.com/newsletter/morning/), a daily newsletter from FiveThirtyEight.
 - [Pod of Asclepius](https://www.podofasclepius.com/mail-list) Mailing List for updates on the [Philosophy of Data Science series](https://www.youtube.com/watch?v=yeHEfHN39Cc).
+
+## One Last Thing, from XKCD: [Probability Comparisons](https://xkcd.com/2379/)
+
+![](https://imgs.xkcd.com/comics/probability_comparisons.png)
 

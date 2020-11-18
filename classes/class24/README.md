@@ -17,14 +17,25 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
 1. Results of Minute Paper after Class 23 **to come**.
 2. Status report on Project B Study 2 Data Plans (due today at noon) [can be found here](https://github.com/THOMASELOVE/431-2020/blob/master/projects/projectB/study2-dataplan-status.md).
 3. I've updated [the R Packages list](https://thomaselove.github.io/431/r_packages.html) to include `equatiomatic`. If you include `equatiomatic` in your loaded packages, it will generate a warning if you haven't upgraded to R version 4.0.3. Feel free to use `warning = FALSE` to suppress that warning if you're still using R 4.0.2. (Yes, this means you can use `warning = FALSE` to fix this in loading packages for your Project B.)
-4. Regarding NHANES for Study 2 in Project B, I made a [short video](https://github.com/THOMASELOVE/431-2020/blob/master/projects/projectB/README.md#video-to-help-you-deal-with-some-common-nhanes-issues) where I pulled some data from NHANES 2017-18, merged it, and then changed  values like "Refused" or "Don't Know" in a variable to missing values. The video is now linked in [the Project B instructions](https://thomaselove.github.io/431-2020-projectB/your7.html), too.
-5. [Data is Plural](https://tinyletter.com/data-is-plural) is a nice (and free) weekly newsletter of useful/curious data sets curated by Jeremy Singer-Vine. You might be interested in taking a look.
-6. [The Daily](https://thedaily.case.edu/tell-us-what-youre-thankful-for-this-year/) is interested to hear from you about what you're thankful for this year. 
+4. Regarding NHANES for Study 2 in Project B, I made a [short video](https://github.com/THOMASELOVE/431-2020/blob/master/projects/projectB/README.md#video-to-help-you-deal-with-some-common-nhanes-issues) where I pulled some data from NHANES 2017-18, merged it, and then changed  values like "Refused" or "Don't Know" in a variable to missing values. The video is now linked in [the Project B instructions](https://thomaselove.github.io/431-2020-projectB/your7.html), too. A few other comments based on the study 2 data plans:
+    - Some binary variables are coded 1 and 2. Fix that in your work, ideally by using the real names and treating the variable as a factor, or by converting the 1-2 to a proper 1-0 indicator variable.
+        - You can use the formula **NEWVAR = 2 - OLDVAR** to turn an OLDVAR that is 1 = Yes, 2 = No into NEWVAR that is 1 = Yes, 0 = No.
+        - If your OLDVAR has 1 = No, 2 = Yes, convert that to a NEWVAR with 1 = Yes, 0 = No using the formula **NEWVAR = OLDVAR - 1**.
+    - I would treat the `RIAGENDR` variable as describing biological SEX and thus change the name appropriately to sex, rather than gender.
+    - The family income ratio `INDFMPIR` is appealing, but problematic, because it is a ratio of income to the poverty level and so many people in the data are listed with the ceiling value of the measurement (5, because everyone with a value greater than 5 is listed as 5.) Figure out what you should do with that.
+    - When working with the education `DMDEDUC2` variable or others with many ordered categories, you'll want to collapse some in a sensible way.
+5. Advice that applies to everyone's Study 2, even if you're not using NHANES include:
+    - You cannot use the same variable (or any form of the same underlying variable) as both an outcome and a predictor.
+    - Variables that use categories to describe what were originally quantitative variables aren't quantitative any more.
+    - Things I would treat as missing include Refused, Don't Know, Unknown, No response and missing. Be sure that R recognizes things that are missing as missing and filters them out when you filter for complete cases.
+    - You are allowed (not encouraged, just allowed) to impute things other than your outcome or key predictor, if you want to, but it won't help if you don't do it correctly. You are not allowed in Project B to impute your outcome or key predictor.
+6. [Data is Plural](https://tinyletter.com/data-is-plural) is a nice (and free) weekly newsletter of useful/curious data sets curated by Jeremy Singer-Vine. You might be interested in taking a look.
+7. [The Daily](https://thedaily.case.edu/tell-us-what-youre-thankful-for-this-year/) is interested to hear from you about what you're thankful for this year. 
     - I'm thankful for your patience with me, and especially thankful for the **incredible** support we've all received from our teaching assistants.
-7. No class next week. 
+8. No class next week. Our next class is Tuesday 2020-12-01. 
     - TA office hours will be held through Friday 2020-11-20 and then not again until Saturday 2020-11-28. 
     - Dr. Love will address Piazza questions and emails on Monday 2020-11-23 and then not again regularly (although he'll check in when he can) until Monday 2020-11-30.
-8. Our next class is Tuesday 2020-12-01. All business regarding 431 will be concluded on 2020-12-14. 
+9. All business regarding 431 will be concluded on 2020-12-14. 
     - Dr. Love will be out of the office from 2020-12-15 through 2021-01-03, and will be less responsive in January to email than usual. 
     - 432 begins at the start of February, and all students successfully completing 431 with a grade of A or B will be cheerfully welcomed to 432.
 

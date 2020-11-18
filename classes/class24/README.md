@@ -18,9 +18,6 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
 2. Status report on Project B Study 2 Data Plans (due today at noon) [can be found here](https://github.com/THOMASELOVE/431-2020/blob/master/projects/projectB/study2-dataplan-status.md).
 3. I've updated [the R Packages list](https://thomaselove.github.io/431/r_packages.html) to include `equatiomatic`. If you include `equatiomatic` in your loaded packages, it will generate a warning if you haven't upgraded to R version 4.0.3. Feel free to use `warning = FALSE` to suppress that warning if you're still using R 4.0.2. (Yes, this means you can use `warning = FALSE` to fix this in loading packages for your Project B.)
 4. Regarding NHANES for Study 2 in Project B, I made a [short video](https://github.com/THOMASELOVE/431-2020/blob/master/projects/projectB/README.md#video-to-help-you-deal-with-some-common-nhanes-issues) where I pulled some data from NHANES 2017-18, merged it, and then changed  values like "Refused" or "Don't Know" in a variable to missing values. The video is now linked in [the Project B instructions](https://thomaselove.github.io/431-2020-projectB/your7.html), too. A few other comments based on the study 2 data plans:
-    - Some binary variables are coded 1 and 2. Fix that in your work, ideally by using the real names and treating the variable as a factor, or by converting the 1-2 to a proper 1-0 indicator variable.
-        - Use the formula **NEWVAR = 2 - OLDVAR** to turn OLDVAR: 1 = Yes, 2 = No into NEWVAR: 1 = Yes, 0 = No.
-        - If you have OLDVAR: 1 = No, 2 = Yes, create a NEWVAR with 1 = Yes, 0 = No using **NEWVAR = OLDVAR - 1**.
     - I would treat the `RIAGENDR` variable as describing biological sex and would rename it as I created a factor.
     - The family income ratio `INDFMPIR` is appealing and quantitative, but it has a pronounced ceiling effect. It is the ratio of income to the poverty level, but is capped at 5. How should you think about that? 
         - A similar issue applies to several other variables, including age (in adults) which are capped at 80.
@@ -32,6 +29,9 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
     - Include NHANES variable names for all variables in your Study 2 codebook, in addition to whatever names you wind up using.
 5. Advice that applies to everyone's Study 2, even if you're not using NHANES include:
     - You cannot use the same variable (or any form of the same underlying variable) as both an outcome and a predictor.
+    - Some binary variables are coded 1 and 2. Fix that in your work, ideally by using the real names and treating the variable as a factor, or by converting the 1-2 to a proper 1-0 indicator variable.
+        - Use the formula **NEWVAR = 2 - OLDVAR** to turn OLDVAR: 1 = Yes, 2 = No into NEWVAR: 1 = Yes, 0 = No.
+        - If you have OLDVAR: 1 = No, 2 = Yes, create a NEWVAR with 1 = Yes, 0 = No using **NEWVAR = OLDVAR - 1**.
     - Variables that use categories to describe what were originally quantitative variables aren't quantitative any more.
     - Things I would treat as missing include Refused, Don't Know, Unknown, No response and missing. Be sure that R recognizes things that are missing as missing and filters them out when you filter for complete cases.
     - You are allowed (not encouraged, just allowed) to impute things other than your outcome or key predictor, but only if you do it appropriately. You are not allowed in Project B to impute your outcome or key predictor.

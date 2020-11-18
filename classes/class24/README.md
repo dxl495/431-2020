@@ -29,7 +29,7 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
     - You cannot use the same variable (or any form of the same underlying variable) as both an outcome and a predictor.
     - Variables that use categories to describe what were originally quantitative variables aren't quantitative any more.
     - Things I would treat as missing include Refused, Don't Know, Unknown, No response and missing. Be sure that R recognizes things that are missing as missing and filters them out when you filter for complete cases.
-    - You are allowed (not encouraged, just allowed) to impute things other than your outcome or key predictor, if you want to, but it won't help if you don't do it correctly. You are not allowed in Project B to impute your outcome or key predictor.
+    - You are allowed (not encouraged, just allowed) to impute things other than your outcome or key predictor, but only if you do it appropriately. You are not allowed in Project B to impute your outcome or key predictor.
 6. [Data is Plural](https://tinyletter.com/data-is-plural) is a nice (and free) weekly newsletter of useful/curious data sets curated by Jeremy Singer-Vine. You might be interested in taking a look.
 7. [The Daily](https://thedaily.case.edu/tell-us-what-youre-thankful-for-this-year/) is interested to hear from you about what you're thankful for this year. 
     - I'm thankful for your patience with me, and especially thankful for the **incredible** support we've all received from our teaching assistants.

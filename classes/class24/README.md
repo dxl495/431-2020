@@ -35,3 +35,9 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
 ## One Last Thing
 
 To come.
+
+## COVID Vaccine Trial Protocols (if you're interested)
+
+- [Pfizer protocol is here](https://pfe-pfizercom-d8-prod.s3.amazonaws.com/2020-11/C4591001_Clinical_Protocol_Nov2020.pdf) (PDF).
+- [Moderna protocol is here](https://www.modernatx.com/sites/default/files/mRNA-1273-P301-Protocol.pdf) (PDF).
+

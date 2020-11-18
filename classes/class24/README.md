@@ -21,15 +21,15 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
     - I would treat the `RIAGENDR` variable as describing biological sex and would rename it as I created a factor.
     - The family income ratio `INDFMPIR` is appealing and quantitative, but it has a pronounced ceiling effect. It is the ratio of income to the poverty level, but is capped at 5. How should you think about that? 
         - A similar issue applies to several other variables, including age (in adults) which are capped at 80.
-    - Collapse levels sensibly for multi-categorical variables, As an example, the income data in `INDHHIN2` is tricky to use, since there are so many categories and some of them overlap. Collapse `INDHHIN2` to the following four categories. Note that this approach drops the 718 subjects with codes 12, 77 or 99, in addition to the 491 with missing data.
+    - If you rename things, include NHANES variable names for all variables in your Study 2 codebook, in addition to those you wind up using.
+5. Advice that applies to everyone's Study 2, even if you're not using NHANES include:
+    - You cannot use the same variable (or any form of the same underlying variable) as both an outcome and a predictor.
+    - Collapse levels sensibly for multi-categorical variables with more than 5 categories. As an example, the income data in `INDHHIN2` in NHANES is tricky to use, since there are so many categories and some of them overlap. Collapse `INDHHIN2` to the following four categories, which are easy to describe, and have reasonable numbers of subjects in each category. Note that this approach drops the 718 subjects with codes 12, 77 or 99, in addition to the 491 with missing data.
         - Lowest: Below $20,000 (includes original codes 1, 2, 3, 4 and 13: includes 1589 subjects in 2017-18 data)
         - Low: between $20,000 and $44,999 (includes original codes 5, 6, and 7: includes 2382 subjects in 2017-18 data)
         - High: between $45,000 and $74,999 (includes original codes 8, 9 and 10: includes 1621 subjects in 2017-18 data)
         - Highest: $75,000 and above (includes original codes 14 and 15: includes 2453 subjects in 2017-18 data)
-    - Include NHANES variable names for all variables in your Study 2 codebook, in addition to whatever names you wind up using.
-5. Advice that applies to everyone's Study 2, even if you're not using NHANES include:
-    - You cannot use the same variable (or any form of the same underlying variable) as both an outcome and a predictor.
-    - Some binary variables are coded 1 and 2. Fix that in your work, ideally by using the real names and treating the variable as a factor, or by converting the 1-2 to a proper 1-0 indicator variable.
+- Some binary variables are coded 1 and 2. Fix that in your work, ideally by using the real names and treating the variable as a factor, or by converting the 1-2 to a proper 1-0 indicator variable.
         - Use the formula **NEWVAR = 2 - OLDVAR** to turn OLDVAR: 1 = Yes, 2 = No into NEWVAR: 1 = Yes, 0 = No.
         - If you have OLDVAR: 1 = No, 2 = Yes, create a NEWVAR with 1 = Yes, 0 = No using **NEWVAR = OLDVAR - 1**.
     - Variables that use categories to describe what were originally quantitative variables aren't quantitative any more.

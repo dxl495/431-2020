@@ -24,7 +24,7 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
     - I would treat the `RIAGENDR` variable as describing biological sex and would rename it as I created a factor.
     - The family income ratio `INDFMPIR` is appealing and quantitative, but it has a pronounced ceiling effect. It is the ratio of income to the poverty level, but is capped at 5. How should you think about that? 
         - A similar issue applies to several other variables, including age (in adults) which are capped at 80.
-    - When working with the education `DMDEDUC2` variable or others with many ordered categories, you'll want to collapse some in a sensible way.
+    - When working with the education `DMDEDUC2` variable or others with many categories, collapse levels sensibly.
 5. Advice that applies to everyone's Study 2, even if you're not using NHANES include:
     - You cannot use the same variable (or any form of the same underlying variable) as both an outcome and a predictor.
     - Variables that use categories to describe what were originally quantitative variables aren't quantitative any more.

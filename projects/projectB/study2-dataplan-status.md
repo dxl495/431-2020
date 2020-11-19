@@ -4,6 +4,7 @@ To submit your Study 2 Data Plan, visit http://bit.ly/431-projectB-data-plan. Al
 
 ## Revise and Resubmit
 
+- Preeti Balachandran
 - Callie Ogland-Hand
 - Katrina Prantzalos
 - Deja Rose
@@ -40,6 +41,7 @@ Investigator | Outcome | Key Predictor | *n*
 :-------------: | ------------- | ------------- | ----:
 Emily Conlan | Body Mass Index | Sedentary Activity | 5388
 Oindrila De | Systolic BP (1st) | Sleep Duration | 4251
+Razaq Durodoye | Urine Creatinine | Blood Lead Level | 1544
 Ali Esharkawi | Systolic BP (2nd) | Total Cholesterol | 5709
 Akif Gormez | Total Cholesterol | Body Mass Index | 5427
 Anniya Gu | Body Mass Index | Meals Not Made at Home | 5129

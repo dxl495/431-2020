@@ -4,6 +4,7 @@ To submit your Study 2 Data Plan, visit http://bit.ly/431-projectB-data-plan. Al
 
 ## Revise and Resubmit
 
+- Jennifer Nguyen
 - Callie Ogland-Hand
 - Katrina Prantzalos
 

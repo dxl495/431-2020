@@ -53,6 +53,7 @@ Grace Nalukwago | Pulse Rate | Sodium Intake | 4526
 Ritu Narahari | Sleep Duration | Caffeine Intake | 4526
 Will Patterson | Diastolic BP (1st) | Sedentary Activity | 4269
 Sarah Simmons | Glycohemoglobin | Educational Attainment | 4373
+Enrique Soltero Mariscal | Pulse Rate | Liver Stiffness (via Ultrasound) | 3968
 Kristi Westphaln | BMI (in kids) | Caregiver's Education | 2535
 Kiara White | Systolic BP (1st) | Diastolic BP | 8704
 Patrick Wu | Pulse Rate | Sodium Intake | 6143

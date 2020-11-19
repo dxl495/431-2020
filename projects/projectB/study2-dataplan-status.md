@@ -55,10 +55,12 @@ Aya Jishi | Pelvis Bone Mineral Density | Vitamin D Consumption | 874
 Ali Klein | Total Cholesterol | Sleep Duration | 873
 Jeff Kovach | Pulse Rate | Sedentary Activity | 4936
 Joe Magoline | Body Mass Index | Sugar Consumption | 6754
+Nilanjana Majumdar | Total Cholesterol | Sugar Consumption | 3526
 Marie Michenkova | Systolic BP (3rd) | Creatinine/Albumin Ratio | 5409
 Jill Miracle | Liver Stiffness (via Ultrasound) | Body Mass Index | 3842
 Grace Nalukwago | Pulse Rate | Sodium Intake | 4526
 Ritu Narahari | Sleep Duration | Caffeine Intake | 4526
+Rod Nault | Albumin-Creatinine Ratio | Glycohemoglobin | 4936
 Jennifer Nguyen | Total Cholesterol | Body Mass Index | 3986
 Will Patterson | Diastolic BP (1st) | Sedentary Activity | 4269
 Sarah Simmons | Glycohemoglobin | Educational Attainment | 4373

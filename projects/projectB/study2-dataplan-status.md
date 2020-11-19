@@ -2,6 +2,11 @@
 
 To submit your Study 2 Data Plan, visit http://bit.ly/431-projectB-data-plan. All plans are due Thursday 2020-11-19 at Noon.
 
+## Revise and Resubmit
+
+- Callie Ogland-Hand
+- Katrina Prantzalos
+
 ## Approved Study 2 Data Plans
 
 ### Teams/Individuals Using Something Other Than NHANES 2017-18 Data
@@ -42,6 +47,3 @@ Patrick Wu | Pulse Rate | Sodium Intake | 6143
 Luke Zhang & Michael Zhang | Urine Albumin | Sodium Intake | 5615
 Lin Zhu | Systolic BP (1st) | Diastolic BP | 8704
 
-## Revise and Resubmit
-
-- Callie Ogland-Hand

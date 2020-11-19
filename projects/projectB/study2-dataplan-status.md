@@ -2,14 +2,10 @@
 
 To submit your Study 2 Data Plan, visit http://bit.ly/431-projectB-data-plan. All plans were due Thursday 2020-11-19 at Noon.
 
-As of 12:15 PM, I was up to date, and 55 of 70 students had an approved project.
-
 ## People Without an Approved Plan
 
 ### Dr. Love is awaiting your revision which he very much hopes will be in by 9 PM tonight.
 
-- Asma Almijlad
-- Arsh Kochar
 - Aman Pande
 - Joe Powell
 - Katrina Prantzalos
@@ -20,12 +16,12 @@ As of 12:15 PM, I was up to date, and 55 of 70 students had an approved project.
 
 ### Dr. Love is awaiting your initial submission which he very much hopes will be in as soon as possible.
 
-- Caitlyn Grubbs
-- Arshiya Mariam
+- Caitlyn Grubbs (under review)
+- Arshiya Mariam (under review)
 - Monika Strah
-- T'yasah Walser
-- Nysia Wise
-- Emily Zetzer
+- T'yasah Walser (under review)
+- Nysia Wise (under review)
+- Emily Zetzer (under review)
 
 ## Approved Study 2 Data Plans
 
@@ -58,6 +54,7 @@ Luke Zhang & Michael Zhang | Urine Albumin | Sodium Intake | 5615
 
 Investigator | Outcome | Key Predictor | *n*
 :-------------: | ------------- | ------------- | ----:
+Asma Almijlad | White Blood Cell Count | Vitamin C | 6736
 Preeti Balachandran | Body Mass Index | Times Receiving Health Care | 1839
 Emily Conlan | Body Mass Index | Sedentary Activity | 5388
 Oindrila De | Systolic BP (1st) | Sleep Duration | 4251
@@ -71,6 +68,7 @@ Leila Hojat | Waist Circumference | Sugar Consumption | 5229
 Natasha Ingles | Body Mass Index | Serum Iron Level | 2059
 Aya Jishi | Pelvis Bone Mineral Density | Vitamin D Consumption | 874
 Ali Klein | Total Cholesterol | Sleep Duration | 873
+Arsh Kochar | Glycohemoglobin | Sedentary Activity | 4520
 Jeff Kovach | Pulse Rate | Sedentary Activity | 4936
 Joe Magoline | Body Mass Index | Sugar Consumption | 6754
 Nilanjana Majumdar | Total Cholesterol | Sugar Consumption | 3526
@@ -79,10 +77,11 @@ Jill Miracle | Liver Stiffness (via Ultrasound) | Body Mass Index | 3842
 Ritu Narahari | Sleep Duration | Caffeine Intake | 4526
 Rod Nault | Albumin-Creatinine Ratio | Glycohemoglobin | 4936
 Jennifer Nguyen | Total Cholesterol | Body Mass Index | 3986
-Callie Ogland-Hand | Cigarettes Per Day | Age started smoking | 959
+Callie Ogland-Hand | Cigarettes Per Day | Age started smoking | 1017
 Will Patterson | Diastolic BP (1st) | Sedentary Activity | 4269
 Lindsay Petrenchik | High-sensitivity C-reactive Protein | Waist Circumference | 2221
 Deja Rose | Serum Iron | Serum Vitamin C | 5440
+Lindsay Ross | Standing Height (teenagers) | Serum Albumin | 659
 Sarah Simmons | Glycohemoglobin | Educational Attainment | 4373
 Enrique Soltero Mariscal | Pulse Rate | Liver Stiffness (via Ultrasound) | 3968
 Surbhi Sona | Total Body Fat | Insulin | 1279

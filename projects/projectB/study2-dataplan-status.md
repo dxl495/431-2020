@@ -9,7 +9,6 @@ To submit your Study 2 Data Plan, visit http://bit.ly/431-projectB-data-plan. Al
 - Katrina Prantzalos
 - Lindsay Ross
 - Surbhi Sona
-- Emma Wallens
 - Kiara White
 - Lin Zhu
 

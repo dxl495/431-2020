@@ -71,7 +71,7 @@ ASA = American Statistical Association. You might want to consider [becoming a s
 4. [Lab 8](https://github.com/THOMASELOVE/431-2020/blob/master/labs/lab08/lab08.md) is due Monday 2020-11-30.
 5. [Project B](https://thomaselove.github.io/431-2020-projectB) Study 1 and Study 2 are now in your hands, assuming I've approved your Data Plan. The reports and other materials are due 2020-12-10 at noon.
 
-## One Last Thing
+## One (Nearly) Last Thing
 
 There was a very important piece published this week that I expect you all might benefit from reading.
 
@@ -87,6 +87,14 @@ There was a very important piece published this week that I expect you all might
 from STAT News: [Pfizer and BioNTech to submit Covid-19 vaccine data to FDA as full results show 95% efficacy](https://www.statnews.com/2020/11/18/pfizer-biontech-covid19-vaccine-fda-data) by Damian Garde and Matthew Herper, 2020-11-18.
 
 > Of the 170 cases of Covid-19 that were recorded from the trial, 162 were in the placebo arm, while the rest were among those who got two doses of the Covid-19 vaccine. Ten of the infections overall were severe — nine of which were in the placebo group.
+
+## Updating the Coronavirus Tracker Maps
+
+See [this thread from Charlie Smart at the New York Times](https://twitter.com/charlie_smart_/status/1329207530002784259?s=20) on Twitter about why they're updating the maps.
+
+You can look for yourselves, but this is the money quote:
+
+> First, we updated the color scale that we’ve been using for months. The outbreak has become so bad in parts of the country that our old scale no longer showed any variation in severity—everything was just solid red.
 
 ## Some Frivolity
 

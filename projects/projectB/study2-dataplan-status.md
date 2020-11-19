@@ -7,8 +7,12 @@ To submit your Study 2 Data Plan, visit http://bit.ly/431-projectB-data-plan. Al
 - Jennifer Nguyen
 - Callie Ogland-Hand
 - Katrina Prantzalos
-- Enrique Soltero Mariscal
+- Lindsay Ross
+- Surbhi Sona
 - Sam Waddell 
+- Emma Wallens
+- Kiara White
+- Lin Zhu
 
 ## Approved Study 2 Data Plans
 
@@ -28,7 +32,8 @@ NHAMCS | National Hospital Ambulatory Medical Care Survey
 Team Members | Outcome | Key Predictor | *n*
 :-------------: | ------------- | ------------- | ----:
 Naomi Joseph & Ananya Subramaniam | Body Mass Index | Meals Not Prepared At Home | 1305
-Danny Lam & Derrick Liu | Systolic BP | Uric Acid | 4647
+Danny Lam & Derrick Liu | Systolic BP (2nd) | Uric Acid | 4647
+Tre Martyn & Josh Saef | High-sensitivity C-reactive Protein | Sleep Duration | 2891
 Luke Zhang & Michael Zhang | Urine Albumin | Sodium Intake | 5615
 
 ### Individuals using NHANES 2017-18 Data
@@ -40,7 +45,9 @@ Oindrila De | Systolic BP (1st) | Sleep Duration | 4251
 Ali Esharkawi | Systolic BP (2nd) | Total Cholesterol | 5709
 Anniya Gu | Body Mass Index | Meals Not Made at Home | 5129
 Clara Harb | Total Cholesterol | Family Income Ratio | 3930
+Jane Hinkle | Body Mass Index | Waist Circumference | 5670
 Leila Hojat | Waist Circumference | Sugar Consumption | 5229
+Natasha Ingles | Body Mass Index | Serum Iron Level | 2059
 Aya Jishi | Pelvis Bone Mineral Density | Vitamin D Consumption | 874
 Ali Klein | Total Cholesterol | Sleep Duration | 873
 Jeff Kovach | Pulse Rate | Sedentary Activity | 4936
@@ -53,7 +60,6 @@ Will Patterson | Diastolic BP (1st) | Sedentary Activity | 4269
 Sarah Simmons | Glycohemoglobin | Educational Attainment | 4373
 Enrique Soltero Mariscal | Pulse Rate | Liver Stiffness (via Ultrasound) | 3968
 Kristi Westphaln | BMI (in kids) | Caregiver's Education | 2535
-Kiara White | Systolic BP (1st) | Diastolic BP | 8704
+Kaan Yorgancioglu | Pulse Rate | Self-reported weight | 4781
 Patrick Wu | Pulse Rate | Sodium Intake | 6143
-Lin Zhu | Systolic BP (1st) | Diastolic BP | 8704
-
+Peng Zhang | Sugar Intake | Protein Intake | 4135

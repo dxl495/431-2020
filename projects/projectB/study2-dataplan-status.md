@@ -5,10 +5,12 @@ To submit your Study 2 Data Plan, visit http://bit.ly/431-projectB-data-plan. Al
 ## Revise and Resubmit
 
 - Preeti Balachandran
+- Arsh Kochar
 - Callie Ogland-Hand
 - Katrina Prantzalos
 - Deja Rose
 - Lindsay Ross
+- Zoe Sekyonda
 - Kiara White
 
 ## Approved Study 2 Data Plans

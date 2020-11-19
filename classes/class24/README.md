@@ -18,18 +18,19 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
 2. Status report on Project B Study 2 Data Plans (due today at noon) [can be found here](https://github.com/THOMASELOVE/431-2020/blob/master/projects/projectB/study2-dataplan-status.md).
 3. I've updated [the R Packages list](https://thomaselove.github.io/431/r_packages.html) to include `equatiomatic`. If you include `equatiomatic` in your loaded packages, it will generate a warning if you haven't upgraded to R version 4.0.3. Feel free to use `warning = FALSE` to suppress that warning if you're still using R 4.0.2. (Yes, this means you can use `warning = FALSE` to fix this in loading packages for your Project B.)
 4. Regarding NHANES for Study 2 in Project B, I made a [short video](https://github.com/THOMASELOVE/431-2020/blob/master/projects/projectB/README.md#video-to-help-you-deal-with-some-common-nhanes-issues) where I pulled some data from NHANES 2017-18, merged it, and then changed  values like "Refused" or "Don't Know" in a variable to missing values. The video is now linked in [the Project B instructions](https://thomaselove.github.io/431-2020-projectB/your7.html), too. A few other comments based on the study 2 data plans:
-    - I would treat the `RIAGENDR` variable as describing biological sex and would rename it as I created a factor.
-    - The family income ratio `INDFMPIR` is appealing and quantitative, but it has a pronounced ceiling effect. It is the ratio of income to the poverty level, but is capped at 5. How should you think about that? 
-        - A similar issue applies to several other variables, including age (in adults) which are capped at 80.
-    - If you rename things, include NHANES variable names for all variables in your Study 2 codebook, in addition to those you wind up using.
-5. Advice that applies to everyone's Study 2, even if you're not using NHANES include:
-    - You cannot use the same variable (or any form of the same underlying variable) as both an outcome and a predictor.
-    - Collapse levels sensibly for multi-categorical variables with more than 5 categories. As an example, the income data in `INDHHIN2` in NHANES is tricky to use, since there are so many categories and some of them overlap. Collapse `INDHHIN2` to the following four categories, which are easy to describe, and have reasonable numbers of subjects in each category. Note that this approach drops the 718 subjects with codes 12, 77 or 99, in addition to the 491 with missing data.
+    - **Gender vs. Sex** I would treat the `RIAGENDR` variable as describing biological sex and would rename it as I created a factor.
+    - **Race/Ethnicity** If you want to use race/ethnicity I would prefer the use of `RIDRETH3` over `RIDRETH1`, and I would recommend using all six categories, assuming you have at least 100 subjects at each level after whatever other pruning you do.
+    - **Income and Measurement Caps** The family income ratio `INDFMPIR` is appealing and quantitative, but it has a pronounced ceiling effect. It is the ratio of income to the poverty level, but is capped at 5. How should you think about that? (Note that age in adults is also capped, at 80.)
+    - **Categorical Income?** As a categorical alternative, the income data in `INDHHIN2` in NHANES can be tricky to use, since there are so many categories and some of them overlap. Collapse `INDHHIN2` to the following four categories, which are easy to describe, and have reasonable numbers of subjects in each category. Note that this approach drops the 718 subjects with codes 12, 77 or 99, in addition to the 491 with missing data.
         - Lowest: Below $20,000 (includes original codes 1, 2, 3, 4 and 13: includes 1589 subjects in 2017-18 data)
         - Low: between $20,000 and $44,999 (includes original codes 5, 6, and 7: includes 2382 subjects in 2017-18 data)
         - High: between $45,000 and $74,999 (includes original codes 8, 9 and 10: includes 1621 subjects in 2017-18 data)
         - Highest: $75,000 and above (includes original codes 14 and 15: includes 2453 subjects in 2017-18 data)
-    - Be sure to treat all multi-categorical variables as FACTORS in R, and don't treat them as numeric variables.
+    - **Codebook** If you rename things, include NHANES variable names for all variables in your Study 2 codebook, in addition to those you wind up using.
+5. Advice that applies to everyone's Study 2, even if you're not using NHANES include:
+    - You cannot use the same variable (or any form of the same underlying variable) as both an outcome and a predictor.
+    - Collapse levels sensibly for multi-categorical variables with more than 5 categories, outside of (maybe) race/ethnicity. 
+    - Be sure to treat all multi-categorical variables as **factors** in R, and don't treat numeric codes as meaningful numeric variables.
     - Some binary variables are coded 1 and 2. Fix that in your work, ideally by using the real names and treating the variable as a factor, or by converting the 1-2 to a proper 1-0 indicator variable.
         - Use the formula **NEWVAR = 2 - OLDVAR** to turn OLDVAR: 1 = Yes, 2 = No into NEWVAR: 1 = Yes, 0 = No.
         - If you have OLDVAR: 1 = No, 2 = Yes, create a NEWVAR with 1 = Yes, 0 = No using **NEWVAR = OLDVAR - 1**.

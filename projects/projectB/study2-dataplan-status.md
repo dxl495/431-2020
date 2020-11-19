@@ -10,7 +10,6 @@ To submit your Study 2 Data Plan, visit http://bit.ly/431-projectB-data-plan. Al
 - Lindsay Ross
 - Surbhi Sona
 - Kiara White
-- Lin Zhu
 
 ## Approved Study 2 Data Plans
 
@@ -63,3 +62,5 @@ Kristi Westphaln | BMI (in kids) | Caregiver's Education | 2535
 Kaan Yorgancioglu | Pulse Rate | Self-reported weight | 4781
 Patrick Wu | Pulse Rate | Sodium Intake | 6143
 Peng Zhang | Sugar Intake | Protein Intake | 4135
+Chenya Zhao | Total Cholesterol | Household Income (4 categories) | 5786
+Lin Zhu | Glycohemoglobin | Insulin | 2018

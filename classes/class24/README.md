@@ -27,8 +27,11 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
         - High: between $45,000 and $74,999 (includes original codes 8, 9 and 10: includes 1621 subjects in 2017-18 data)
         - Highest: $75,000 and above (includes original codes 14 and 15: includes 2453 subjects in 2017-18 data)
     - **Codebook** If you rename things, include NHANES variable names for all variables in your Study 2 codebook, in addition to those you wind up using.
+    - **Data Plan** In your data plan, each variable should be specified with its NHANES variable name, a description, and the NHANES data set it comes from. 
+        - For example, RIDRETH3, race/ethnicity (6 categories) sourced from DEMO_J is what we're looking for.
 5. Advice that applies to everyone's Study 2, even if you're not using NHANES include:
     - You cannot use the same variable (or any form of the same underlying variable) as both an outcome and a predictor.
+    - Don't categorize any quantitative variables, if you can possibly avoid doing so.
     - Collapse levels sensibly for multi-categorical variables with more than 5 categories, outside of (maybe) race/ethnicity. 
     - Be sure to treat all multi-categorical variables as **factors** in R, and don't treat numeric codes as meaningful numeric variables.
     - Some binary variables are coded 1 and 2. Fix that in your work, ideally by using the real names and treating the variable as a factor, or by converting the 1-2 to a proper 1-0 indicator variable.

@@ -20,7 +20,7 @@ Long Vu | [NHAMCS 2017](https://www.cdc.gov/nchs/ahcd/datasets_documentation_rel
 Davis Weaver | [1.88 million US Wildfires](https://www.kaggle.com/rtatman/188-million-us-wildfires) | Fire Size (acres) | Year | 10000
 
 Abbreviation | Meaning
------------ | ----------------------
+:----------: | ----------------------
 NHAMCS | National Hospital Ambulatory Medical Care Survey
 
 ### Teams using NHANES 2017-18 Data

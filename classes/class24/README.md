@@ -60,6 +60,24 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
 
 ASA = American Statistical Association. You might want to consider [becoming a student member](https://www.amstat.org/asa/membership/Become-a-Member.aspx)!
 
+## COVID Vaccine Trial Protocols (if you're interested)
+
+- [Pfizer protocol is here](https://pfe-pfizercom-d8-prod.s3.amazonaws.com/2020-11/C4591001_Clinical_Protocol_Nov2020.pdf) (PDF).
+- [Moderna protocol is here](https://www.modernatx.com/sites/default/files/mRNA-1273-P301-Protocol.pdf) (PDF).
+
+from STAT News: [Pfizer and BioNTech to submit Covid-19 vaccine data to FDA as full results show 95% efficacy](https://www.statnews.com/2020/11/18/pfizer-biontech-covid19-vaccine-fda-data) by Damian Garde and Matthew Herper, 2020-11-18.
+
+> Of the 170 cases of Covid-19 that were recorded from the trial, 162 were in the placebo arm, while the rest were among those who got two doses of the Covid-19 vaccine. Ten of the infections overall were severe — nine of which were in the placebo group.
+
+## Updating the Coronavirus Tracker Maps
+
+See [this thread from Charlie Smart at the New York Times](https://twitter.com/charlie_smart_/status/1329207530002784259?s=20) on Twitter about why they're updating the maps.
+
+You can look for yourselves, but this is the money quote:
+
+> First, we updated the color scale that we’ve been using for months. The outbreak has become so bad in parts of the country that our old scale no longer showed any variation in severity—everything was just solid red.
+
+
 ## What Should I Be Working On?
 
 1. Staying healthy, keeping other people healthy, and taking care of those that need your help. **Make good choices.**
@@ -79,23 +97,6 @@ There was a very important piece published this week that I expect you all might
     - Here's a [PDF of the main comment](https://github.com/THOMASELOVE/431-2020/blob/master/classes/class24/pdf/nature_five_rules_for_evidence_communication_2020.pdf) (3 pages).
     - Here's a [PDF of the supplemental information](https://github.com/THOMASELOVE/431-2020/blob/master/classes/class24/pdf/nature_supplemental_information_2020.pdf) which details the arguments further (10 pages).
     
-## COVID Vaccine Trial Protocols (if you're interested)
-
-- [Pfizer protocol is here](https://pfe-pfizercom-d8-prod.s3.amazonaws.com/2020-11/C4591001_Clinical_Protocol_Nov2020.pdf) (PDF).
-- [Moderna protocol is here](https://www.modernatx.com/sites/default/files/mRNA-1273-P301-Protocol.pdf) (PDF).
-
-from STAT News: [Pfizer and BioNTech to submit Covid-19 vaccine data to FDA as full results show 95% efficacy](https://www.statnews.com/2020/11/18/pfizer-biontech-covid19-vaccine-fda-data) by Damian Garde and Matthew Herper, 2020-11-18.
-
-> Of the 170 cases of Covid-19 that were recorded from the trial, 162 were in the placebo arm, while the rest were among those who got two doses of the Covid-19 vaccine. Ten of the infections overall were severe — nine of which were in the placebo group.
-
-## Updating the Coronavirus Tracker Maps
-
-See [this thread from Charlie Smart at the New York Times](https://twitter.com/charlie_smart_/status/1329207530002784259?s=20) on Twitter about why they're updating the maps.
-
-You can look for yourselves, but this is the money quote:
-
-> First, we updated the color scale that we’ve been using for months. The outbreak has become so bad in parts of the country that our old scale no longer showed any variation in severity—everything was just solid red.
-
 ## Some Frivolity
 
 - If you want to see me play the Pirate King in Gilbert & Sullivan's *The Pirates of Penzance* in an incredibly collegiate production from Columbia University 30 years ago, it's available on [YouTube](https://www.youtube.com/watch?v=SRP1HMaGsTE). If you just want to get an idea of the spirit of the thing without sitting through all of it, you might skip ahead to minute 52 or so to see the end of Act I.

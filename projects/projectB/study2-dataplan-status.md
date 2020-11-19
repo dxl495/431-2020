@@ -7,6 +7,9 @@ To submit your Study 2 Data Plan, visit http://bit.ly/431-projectB-data-plan. Al
 - Jennifer Nguyen
 - Callie Ogland-Hand
 - Katrina Prantzalos
+- Amir Reza Sadri
+- Enrique Soltero Mariscal
+- Sam Waddell 
 
 ## Approved Study 2 Data Plans
 

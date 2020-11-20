@@ -6,25 +6,15 @@ Dr. Love is caught up through 5 PM on 2020-11-19. At the moment, we have 60 of 7
 
 ## People Without an Approved Plan
 
-### Dr. Love has received your revision, and is reviewing it now.
+### Dr. Love is waiting for your next version. He wants to review that at 9 AM Friday.
 
-- Arshiya Mariam
-- Aman Pande
 - Joe Powell
-- Zoe Sekyonda
-- Dipak Upadhyaya
-- Wail Yar
-- Emily Zetzer
-
-### Dr. Love is awaiting your revision which he very much hopes will be in by 9 PM tonight.
-
-- T'yasah Walser & Nysia Wise
-
-### Dr. Love is awaiting your initial submission which he very much hopes will be in as soon as possible.
-
 - Monika Strah
+- Dipak Upadhyaya
+- T'yasah Walser & Nysia Wise
+- Wail Yar
 
-## Approved Study 2 Data Plans
+## Approved Study 2 Data Plans (64 of 70 as of 10 PM 2020-11-19)
 
 ### Teams/Individuals Using Something Other Than NHANES 2017-18 Data
 
@@ -74,17 +64,20 @@ Arsh Kochar | Glycohemoglobin | Sedentary Activity | 4520
 Jeff Kovach | Pulse Rate | Sedentary Activity | 4936
 Joe Magoline | Body Mass Index | Sugar Consumption | 6754
 Nilanjana Majumdar | Total Cholesterol | Sugar Consumption | 3526
+Arshiya Mariam | Glycohemoglobin | Weight Change in past 10y | 3597
 Marie Michenkova | Systolic BP (3rd) | Creatinine/Albumin Ratio | 5409
 Jill Miracle | Liver Stiffness (via Ultrasound) | Body Mass Index | 3842
 Ritu Narahari | Sleep Duration | Caffeine Intake | 4526
 Rod Nault | Albumin-Creatinine Ratio | Glycohemoglobin | 4936
 Jennifer Nguyen | Total Cholesterol | Body Mass Index | 3986
 Callie Ogland-Hand | Cigarettes Per Day | Age started smoking | 1017
+Aman Pande | Glycohemoglobin | Waist Circumference | 3996
 Will Patterson | Diastolic BP (1st) | Sedentary Activity | 4269
 Lindsay Petrenchik | High-sensitivity C-reactive Protein | Waist Circumference | 2221
 Katrina Prantzalos | Insulin | Body Weight | 2596
 Deja Rose | Serum Iron | Serum Vitamin C | 5440
 Lindsay Ross | Standing Height (teenagers) | Serum Albumin | 659
+Zoe Sekyonda | Glycohemoglobin | Body Mass Index | 5738
 Sarah Simmons | Glycohemoglobin | Educational Attainment | 4373
 Enrique Soltero Mariscal | Pulse Rate | Liver Stiffness (via Ultrasound) | 3968
 Surbhi Sona | Total Body Fat | Insulin | 1279
@@ -92,6 +85,7 @@ Ping Wang | Animal Fluency | Vitamin B12 | 1582
 Kristi Westphaln | BMI (in kids) | Caregiver's Education | 2535
 Patrick Wu | Pulse Rate | Sodium Intake | 6143
 Kaan Yorgancioglu | Pulse Rate | Self-reported weight | 4781
+Emily Zetzer | Lymphocyte Cell Count | High-sensitivity C-reactive Protein | 327
 Peng Zhang | Sugar Intake | Protein Intake | 4135
 Chenya Zhao | Total Cholesterol | Household Income (4 categories) | 5786
 Lin Zhu | Glycohemoglobin | Insulin | 2018

@@ -2,8 +2,6 @@
 
 To submit your Study 2 Data Plan, visit http://bit.ly/431-projectB-data-plan. All plans were due Thursday 2020-11-19 at Noon.
 
-Dr. Love is caught up through 5 PM on 2020-11-19. At the moment, we have 60 of 70 students with an approved Project 2 Data Plan
-
 ## People Without an Approved Plan
 
 ### Dr. Love is waiting for your next version. He wants to review that at 9 AM Friday.

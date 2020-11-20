@@ -1,14 +1,8 @@
 # Project B Study 2 Data Plan Approval Status
 
-To submit your Study 2 Data Plan, visit http://bit.ly/431-projectB-data-plan. All plans were due Thursday 2020-11-19 at Noon.
+All students now have an approved plan. Thanks.
 
-## People Without an Approved Plan
-
-- Joe Powell
-
-## Approved Study 2 Data Plans (69 of 70 as of 8:30 AM 2020-11-20)
-
-### Teams/Individuals Using Something Other Than NHANES 2017-18 Data
+## Teams/Individuals Using Something Other Than NHANES 2017-18 Data
 
 Investigator(s) | Data Source | Outcome | Key Predictor | *n*
 :-------------: | ------------- | --------------------- |  ------------------ | ----:
@@ -19,7 +13,7 @@ Abbreviation | Meaning
 :----------: | ----------------------
 NHAMCS | National Hospital Ambulatory Medical Care Survey
 
-### Teams using NHANES 2017-18 Data
+## Teams using NHANES 2017-18 Data
 
 Team Members | Outcome | Key Predictor | *n*
 :-------------: | ------------- | ------------- | ----:
@@ -34,7 +28,7 @@ Maggie Rybak & Mia Wang | High-sensitivity C-reactive Protein | Sleepiness Frequ
 T'yasah Walser & Nysia Wise | Calories Consumed | Body Weight | 648
 Luke Zhang & Michael Zhang | Urine Albumin | Sodium Intake | 5615
 
-### Individuals using NHANES 2017-18 Data
+## Individuals using NHANES 2017-18 Data
 
 Investigator | Outcome | Key Predictor | *n*
 :-------------: | ------------- | ------------- | ----:
@@ -67,6 +61,7 @@ Callie Ogland-Hand | Cigarettes Per Day | Age started smoking | 1017
 Aman Pande | Glycohemoglobin | Waist Circumference | 3996
 Will Patterson | Diastolic BP (1st) | Sedentary Activity | 4269
 Lindsay Petrenchik | High-sensitivity C-reactive Protein | Waist Circumference | 2221
+Joe Powell | Body Weight | Meals not prepared at home | 4490
 Katrina Prantzalos | Insulin | Body Weight | 2596
 Deja Rose | Serum Iron | Serum Vitamin C | 5440
 Lindsay Ross | Standing Height (teenagers) | Serum Albumin | 659

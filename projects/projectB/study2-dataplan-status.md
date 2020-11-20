@@ -4,17 +4,9 @@ To submit your Study 2 Data Plan, visit http://bit.ly/431-projectB-data-plan. Al
 
 ## People Without an Approved Plan
 
-### Dr. Love is actively reviewing your latest submission.
-
-- Dipak Upadhyaya
-- T'yasah Walser & Nysia Wise
-- Wail Yar
-
-### Dr. Love is waiting for your next version. He wants to review that at 9 AM Friday.
-
 - Joe Powell
 
-## Approved Study 2 Data Plans (64 of 70 as of 10 PM 2020-11-19)
+## Approved Study 2 Data Plans (69 of 70 as of 8:30 AM 2020-11-20)
 
 ### Teams/Individuals Using Something Other Than NHANES 2017-18 Data
 
@@ -39,6 +31,7 @@ Rebecca Manning & Emma Wallens | Systolic BP (1st) | Educational Attainment | 28
 Tre Martyn & Josh Saef | High-sensitivity C-reactive Protein | Sleep Duration | 2891
 Grace Nalukwago & Kiara White | Pulse Rate | Sodium Intake | 4526
 Maggie Rybak & Mia Wang | High-sensitivity C-reactive Protein | Sleepiness Frequency | 1143
+T'yasah Walser & Nysia Wise | Calories Consumed | Body Weight | 648
 Luke Zhang & Michael Zhang | Urine Albumin | Sodium Intake | 5615
 
 ### Individuals using NHANES 2017-18 Data
@@ -82,9 +75,11 @@ Sarah Simmons | Glycohemoglobin | Educational Attainment | 4373
 Enrique Soltero Mariscal | Pulse Rate | Liver Stiffness (via Ultrasound) | 3968
 Surbhi Sona | Total Body Fat | Insulin | 1279
 Monika Strah | Body Mass Index | Triglycerides | 5604
+Dipak Upadhyaya | Total Cholesterol | Body Mass Index | 1065
 Ping Wang | Animal Fluency | Vitamin B12 | 1582
 Kristi Westphaln | BMI (in kids) | Caregiver's Education | 2535
 Patrick Wu | Pulse Rate | Sodium Intake | 6143
+Wail Yar | Sleep Duration | Educational Attainment | 4508
 Kaan Yorgancioglu | Pulse Rate | Self-reported weight | 4781
 Emily Zetzer | Lymphocyte Cell Count | High-sensitivity C-reactive Protein | 327
 Peng Zhang | Sugar Intake | Protein Intake | 4135

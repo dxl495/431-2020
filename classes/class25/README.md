@@ -17,4 +17,5 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
         - Some of this advice also appeared in the [Class 24 README](https://github.com/THOMASELOVE/431-2020/tree/master/classes/class24). 
         - I also placed a short note at the start of Sections 3 and 5 of the [Study 2 Demonstration Project](https://thomaselove.github.io/431-2020-projectB/your7.html) to remind you to look at these augmented instructions.
 2. There will be a Minute Paper after Class 25, due at noon Wednesday 2020-12-02. **To be posted**
-3. More to come.
+3. All video recordings via Zoom of class sessions found on Canvas should now be downloadable. They will begin to disappear in mid-January, so grab them before the end of 2020 if you want to keep them. I'm sorry this didn't work for everyone from the start of the semester.
+4. More to come.

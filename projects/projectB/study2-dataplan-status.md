@@ -4,13 +4,16 @@ To submit your Study 2 Data Plan, visit http://bit.ly/431-projectB-data-plan. Al
 
 ## People Without an Approved Plan
 
-### Dr. Love is waiting for your next version. He wants to review that at 9 AM Friday.
+### Dr. Love is actively reviewing your latest submission.
 
-- Joe Powell
 - Monika Strah
 - Dipak Upadhyaya
 - T'yasah Walser & Nysia Wise
 - Wail Yar
+
+### Dr. Love is waiting for your next version. He wants to review that at 9 AM Friday.
+
+- Joe Powell
 
 ## Approved Study 2 Data Plans (64 of 70 as of 10 PM 2020-11-19)
 

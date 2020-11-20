@@ -13,6 +13,8 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
 ## Announcements
 
 1. Changes to the Project B instructions since we last met:
-    - 2020-11-20: I substantially augmented the materials on sections 3 and 5 of the Study 2 Report in the [Study 2 Report Specifications](https://thomaselove.github.io/431-2020-projectB/your6.html). These pull together all of the advice I have to give you on the subject, and **provide clear recipes that you should follow** for these important sections of your Study 2 report. Some of this advice also appeared in the [Class 24 README](https://github.com/THOMASELOVE/431-2020/tree/master/classes/class24).
+    - 2020-11-20: I substantially augmented the materials on sections 3 and 5 of the Study 2 Report in the [Study 2 Report Specifications](https://thomaselove.github.io/431-2020-projectB/your6.html). These pull together all of the advice I have to give you on the subject, and **provide clear recipes that you should follow** for these important sections of your Study 2 report. 
+        - Some of this advice also appeared in the [Class 24 README](https://github.com/THOMASELOVE/431-2020/tree/master/classes/class24). 
+        - I also placed a short note at the start of Sections 3 and 5 of the [Study 2 Demonstration Project](https://thomaselove.github.io/431-2020-projectB/your7.html) to remind you to look at these augmented instructions.
 2. There will be a Minute Paper after Class 25, due at noon Wednesday 2020-12-02. **To be posted**
 3. More to come.

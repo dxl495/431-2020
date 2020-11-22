@@ -19,17 +19,17 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
 2. [Course Notes](https://thomaselove.github.io/431-notes/)
     - Some of this material is a little less up to date than I wish it was. The class slides always show my most recent thinking for R coding, but I haven't found the time to fix that in the Notes in some spots. Newly posted materials include:
     - [Chapter 23](https://thomaselove.github.io/431-notes/estimating-a-population-proportion.html): Building Confidence Intervals for a Population Proportion `posted 2020-11-21`
-    - Chapter 24: Analyzing a Two-by-Two table to compare proportions posted 2020-11-21.
-    - Chapter 25: Chi-square tests for larger two-way tables and Cochran-Mantel-Haenszel for three-way tables posted 2020-11-21.
-    - Chapter 26: Sample Size and Power when comparing Two Proportions posted 2020-11-21.
-    - Chapter 27: Review of Comparison Strategies for Quiz 2 (some practice problems) posted 2020-11-21.
-    - Chapter 28: Missing Data and Simple Imputation posted 2020-11-22.
-    - Chapter 29: Returning to Multiple Regression and Key Concepts for 431 posted 2020-11-22.
-    - The final chapters I'll post (soon) focus on ideas from Classes 22-24 plus some other things, working through three case studies.
+    - [Chapter 24](https://thomaselove.github.io/431-notes/comparing-proportions-with-two-independent-samples.html): Analyzing a Two-by-Two table to compare proportions `posted 2020-11-21`.
+    - [Chapter 25](https://thomaselove.github.io/431-notes/larger-contingency-tables.html): Chi-square tests for larger two-way tables and Cochran-Mantel-Haenszel for three-way tables `posted 2020-11-21`.
+    - [Chapter 26](https://thomaselove.github.io/431-notes/power-and-proportions.html): Sample Size and Power when comparing Two Proportions `posted 2020-11-21`.
+    - [Chapter 27](https://thomaselove.github.io/431-notes/quiz-2-review.html): Some Practice Problems for Quiz 2 (with solutions) `posted 2020-11-21`.
+    - [Chapter 28](https://thomaselove.github.io/431-notes/missing-data-mechanisms-and-simple-imputation.html): Missing Data and Simple Imputation `posted 2020-11-22`.
+    - [Chapter 29](https://thomaselove.github.io/431-notes/multiple-regression-introduction.html): Returning to Multiple Regression and Key Concepts for 431 `posted 2020-11-22`.
+    - The final chapters I'll post (by 2020-12-01) focus on ideas from Classes 22-24 plus some other things, working through three case studies.
 3. On Canvas, you should now be able to **download all of our class Zoom recordings**.
     - When logged into 431 on Canvas, click Zoom, then select Cloud Recordings, pull up a recording of a class as if you were watching it, and at the top right, you should find a button to download the recording. I'm sorry it took until now for these to be downloadable.
-    - These recordings will begin to disappear in mid-January of 2021, so I encourage you to grab them before the end of 2020 if you want them. 
-    - 431 Course Notes and Github materials will disappear at the start of June in 2021, so you have more time to grab them if you like.
+    - The Zoom videos will start disappearing in mid-January of 2021, so I encourage you to grab them in December if you want them. 
+    - 431 Course Notes and Github materials will disappear in early June of 2021, so you have more time to grab them if you like.
 
 ## Announcements
 

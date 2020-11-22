@@ -28,8 +28,8 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
     - The final chapters (which I will post by 2020-12-01) amplify and augment the regression ideas discussed in Classes 22-24.
 3. On Canvas, you should now be able to **download all of our class Zoom recordings**.
     - When logged into 431 on Canvas, click Zoom, then select Cloud Recordings, pull up a recording of a class as if you were watching it, and at the top right, you should find a button to download the recording. I'm sorry it took until now for these to be downloadable.
-    - The Zoom videos will start disappearing in mid-January of 2021, so I encourage you to grab them in December if you want them. 
-    - 431 Course Notes and Github materials will disappear in early June of 2021, so you have more time to grab them if you like.
+    - The Zoom videos will start disappearing in mid-January of 2021. Grab them in December if you want them. 
+    - 431 Course Notes and Github materials will disappear on 2021-06-01.
 
 ## Oral Presentations for Project B
 

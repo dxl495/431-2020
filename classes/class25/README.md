@@ -58,3 +58,15 @@ Actual details on what you'll be doing **will be posted** on 2020-12-01.
     - There is no need for you to upgrade until after you complete both Project B and Quiz 2. We assume you have version 4.0.2 of R and RStudio version 1.3.xxx. You are *welcome* to upgrade, but it is more likely to cause problems than solve them for you at this point.
     - Dr. Love intends to continue using R version 4.0.2 and RStudio version 1.3.1056 through the end of the course.
     - As of 2020-11-22, the current versions that are available are R version 4.0.3 and RStudio version 1.3.1093.
+
+## What Should I Be Doing?
+
+- Details to come.
+
+## One Last Thing
+
+- From [Walt Hickey at Numlock News](https://numlock.substack.com/), writing about [this interesting data analysis](https://pudding.cool/2020/11/crossword/) by Michelle McGhee with Russell Goldenberg and Jan Diehm at The Pudding.
+
+> An analysis of a sample of tens of thousands of crossword clues, assigning the answers to the actual human people who were the solutions, found that in 2020, 64 percent of the proper noun clues in the New York Times crossword were linked to men, and just 28 percent to a person in a minoritized racial group. Similar disparities were seen in the L.A. Times crossword (68 percent male, 25 percent non-white), Wall Street Journal crossword (69 percent male, 24 percent non-white) and Universal syndicate (54 percent men, 29 percent non-white). Interestingly, in 2020, the USA Today crossword flips that, with 72 percent of the proper noun answers being women and 48 percent of them being from a minoritized racial group, which is actually a serious effort enacted by Erik Agard, the new 27-year-old editor in charge of the USA Today puzzle since the end of 2019.
+
+I do the NY Times crossword puzzles on Monday-Wednesday, and my family started (in June) doing the puzzle on Thursday-Sunday together. **I'll post some of our statistics below**.

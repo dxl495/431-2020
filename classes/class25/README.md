@@ -69,4 +69,6 @@ Actual details on what you'll be doing **will be posted** on 2020-12-01.
 
 > An analysis of a sample of tens of thousands of crossword clues, assigning the answers to the actual human people who were the solutions, found that in 2020, 64 percent of the proper noun clues in the New York Times crossword were linked to men, and just 28 percent to a person in a minoritized racial group. Similar disparities were seen in the L.A. Times crossword (68 percent male, 25 percent non-white), Wall Street Journal crossword (69 percent male, 24 percent non-white) and Universal syndicate (54 percent men, 29 percent non-white). Interestingly, in 2020, the USA Today crossword flips that, with 72 percent of the proper noun answers being women and 48 percent of them being from a minoritized racial group, which is actually a serious effort enacted by Erik Agard, the new 27-year-old editor in charge of the USA Today puzzle since the end of 2019.
 
-I do the NY Times crossword puzzles on Monday-Wednesday, and my family started (in June) doing the puzzle on Thursday-Sunday together. **I'll post some of our statistics below**.
+We've settled into a routine since June in my house, where I do the NY Times crossword puzzles on Monday-Wednesday, and we do Thursday-Sunday together. Here are some of our statistics through 2020-11-23.
+
+![](https://github.com/THOMASELOVE/431-2020/blob/master/classes/class25/images/puzzle_2020-11-23.png)

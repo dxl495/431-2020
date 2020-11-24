@@ -26,6 +26,7 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
     - [Chapter 28](https://thomaselove.github.io/431-notes/missing-data-mechanisms-and-simple-imputation.html): Missing Data and Simple Imputation `posted 2020-11-22`.
     - [Chapter 29](https://thomaselove.github.io/431-notes/multiple-regression-introduction.html): Setting Up Multiple Regression Case Studies, Outline of Key 431 Concepts `posted 2020-11-22`.
     - [Chapter 30](https://thomaselove.github.io/431-notes/regression-diagnostics.html): Regression Diagnostics `posted 2020-11-23`.
+    - [Chapter 31](https://thomaselove.github.io/431-notes/building-prediction-models-for-wcgs.html): Building Prediction Models for the `wcgs` data `posted 2020-11-23`.
     - The last few chapters (which I will post by 2020-12-01) amplify and augment the regression ideas discussed in Classes 22-24.
 3. On Canvas, you should now be able to **download all of our class Zoom recordings**.
     - When logged into 431 on Canvas, click Zoom, then select Cloud Recordings, pull up a recording of a class as if you were watching it, and at the top right, you should find a button to download the recording. I'm sorry it took until now for these to be downloadable.

@@ -16,8 +16,8 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
     - In the [Study 2 Report Specifications](https://thomaselove.github.io/431-2020-projectB/your6.html), I added details in sections 3 and 5 which pull together advice I have provided elsewhere plus new information on cleaning data, the codebook, and what to check in your data. I attempted in section 5, in particular, to provide clear **recipes that you should follow** for this critical section of your Study 2 report. 
         - Some of this advice also appeared in the [Class 24 README](https://github.com/THOMASELOVE/431-2020/tree/master/classes/class24). 
         - I also placed a short note at the start of Sections 3 and 5 of the [Study 2 Demonstration Project](https://thomaselove.github.io/431-2020-projectB/your7.html) to remind you to look at these augmented instructions.
-2. [Course Notes](https://thomaselove.github.io/431-notes/)
-    - Some of this material is a little less up to date than I wish it was. The class slides always show my most recent thinking for R coding, but I haven't found the time to fix that in the Notes in some spots. Newly posted materials include:
+2. [Course Notes](https://thomaselove.github.io/431-notes/) 
+    - I've now posted all 33 chapters, including 11 new ones. The class slides always show my most recent thinking for R coding, but I haven't found the time to fix that in the Notes in a few spots, but, for example, Chapters 28-31 have been completely rewritten to reflect our most current approaches. Most of chapters 23-27 are pretty much up-to-date, too. Chapters 32-33 feature old methods, but similar ideas, with some surprises!
     - [Chapter 23](https://thomaselove.github.io/431-notes/estimating-a-population-proportion.html): Building Confidence Intervals for a Population Proportion `posted 2020-11-21`
     - [Chapter 24](https://thomaselove.github.io/431-notes/comparing-proportions-with-two-independent-samples.html): Analyzing a Two-by-Two table to compare proportions `posted 2020-11-21`.
     - [Chapter 25](https://thomaselove.github.io/431-notes/larger-contingency-tables.html): Chi-square tests for larger 2-way tables and Cochran-Mantel-Haenszel for 3-way tables `posted 2020-11-21`.
@@ -27,7 +27,8 @@ for everything | for deadlines | expectations | from Dr. Love | ways to get help
     - [Chapter 29](https://thomaselove.github.io/431-notes/multiple-regression-introduction.html): Setting Up Multiple Regression Case Studies, Outline of Key 431 Concepts `posted 2020-11-22`.
     - [Chapter 30](https://thomaselove.github.io/431-notes/regression-diagnostics.html): Regression Diagnostics `posted 2020-11-23`.
     - [Chapter 31](https://thomaselove.github.io/431-notes/building-prediction-models-for-wcgs.html): Building Prediction Models for the `wcgs` data `posted 2020-11-23`.
-    - The last few chapters (which I will post by 2020-12-01) amplify and augment the regression ideas discussed in Classes 22-24.
+    - [Chapter 32](https://thomaselove.github.io/431-notes/species-found-on-the-galapagos-islands.html): The Galapagos Island Data featuring lots of questions to test yourself `posted 2020-11-23`.
+    - [Chapter 33](https://thomaselove.github.io/431-notes/bmi-and-employment-study.html): The BMI and Employment in Korea Study featuring Old Ways To Build/Evaluate Regressions `posted 2020-11-23`.
 3. On Canvas, you should now be able to **download all of our class Zoom recordings**.
     - When logged into 431 on Canvas, click Zoom, then select Cloud Recordings, pull up a recording of a class as if you were watching it, and at the top right, you should find a button to download the recording. I'm sorry it took until now for these to be downloadable.
     - The Zoom videos will start disappearing in mid-January of 2021. Grab them in December if you want them. 

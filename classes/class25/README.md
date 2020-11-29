@@ -51,7 +51,7 @@ There are three groups of students. You should have received an email from Dr. L
 
 1. **To be posted**. Instructions for the Oral Presentation (recording and Zoom) will appear on 2020-12-01.
 2. **To be posted**. The Google Form Self-Evaluation for Project B will appear on 2020-12-01.
-3. **To be posted**. There will be a Minute Paper after Class 25, due at noon Wednesday 2020-12-02. 
+3. There is a [Minute Paper after Class 25](https://bit.ly/431-2020-minute-25), due at noon Wednesday 2020-12-02. 
 4. **To be posted**. Answer sketch for Lab 8 will appear by class time on 2020-12-01.
 5. TA office hours are back, and will continue every day through Monday 2020-12-07.
 6. [The `forcats` package](https://forcats.tidyverse.org/index.html) is an incredibly useful tool for working with factors, but it's sometimes a challenge to figure out which function to use in a particular situation. 
@@ -69,7 +69,7 @@ There are three groups of students. You should have received an email from Dr. L
 ## What Should I Be Doing?
 
 1. Now that we're in December, don't forget about staying healthy, keeping other people healthy, and taking care of those that need your help. **Make good choices.**
-2. Minute Paper after Class 25 due Wednesday 2020-12-02 at noon.
+2. [Minute Paper after Class 25](https://bit.ly/431-2020-minute-25) is due Wednesday 2020-12-02 at noon.
 3. Scheduling form for Project B oral presentations (for those of you who've received an invitation) due Wednesday 2020-12-02 at noon, too.
 4. [Project B](https://thomaselove.github.io/431-2020-projectB) and everything is 2020-12-10 at Noon, other than the Zoom presentations.
     - If you want TA help on your project, remember to get it by the end of the day Monday 2020-12-07.
